@@ -1,28 +1,135 @@
-/* Padding below the footer and lighter body text */
+@font-face {
+    font-family: "Work Sans";
+    src: url(../fonts/WorkSans-VariableFont_wght.ttf);
+    font-weight: 1 999;
+}
+
+@font-face {
+    font-family: "Gloria Hallelujah";
+    src: url(../fonts/GloriaHallelujah-Regular.ttf);
+    font-weight: 1 999;
+}
 
 body {
-    padding-bottom: 40px;
     color: #5a5a5a;
+    background-color: #f2f0eb;
+}
+
+hr {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #e6e4df;
+    height: 1px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+b {
+    font-weight: 500;
 }
 
 
-/* Navbar */
+/** Navbar */
+
+.navbar-logo {
+    max-width: 60px;
+    float: left;
+    margin-top: 8.52px;
+    margin-left: 5px;
+}
+
+.navbar-title {
+    font-family: "Gloria Hallelujah";
+    height: 75px;
+    color: #1b578a;
+    font-weight: 500;
+    font-size: 25px;
+    float: left;
+    margin: 0px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-toggle {
+    height: 75px;
+    position: relative;
+    float: right;
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+    margin: 0px;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+i.fas.fa-bars {
+    font-size: 20px;
+}
+
+.navbar.navbar-inverse.navbar-static-top {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #428BCA;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    font-size: 13px;
+    font-weight: 400;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: .2px;
+    text-align: center;
+}
+
+.navbar {
+    border: transparent;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+    background-color: white;
+    color: #428BCA;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    border: transparent;
+    background-color: transparent;
+}
 
 .navbar-wrapper {
-    position: absolute;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    font-family: "Work Sans";
+    height: 75px;
+    position: fixed;
     top: 0px;
     right: 0px;
     left: 0px;
     z-index: 20;
-    margin-top: 20px;
-}
-
-.navbar-wrapper>.container {
-    padding-right: 15px;
-    padding-left: 15px;
+    transition: top .8s;
 }
 
 .navbar-wrapper .navbar {
+    background: transparent;
     padding-right: 0px;
     padding-left: 0px;
     border-radius: 4px;
@@ -33,70 +140,185 @@ body {
 }
 
 
-/* Home Page Announcements */
+/** Home page */
 
-.announcements {
-    width: 800px;
-    height: 500px;
+.site-overlay {
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    min-height: 700px;
+    width: 100%;
+    position: relative;
+    z-index: -1;
 }
 
-
-/* Home Page Carousal */
-
-.carousel {
-    height: 800px;
-    display: table;
-    margin: auto;
-    margin-bottom: 50px;
+.site-overlay>img {
+    height: 100vh;
+    width: 100%;
+    min-height: 700px;
+    object-fit: cover;
 }
 
-.carousel-caption {
-    z-index: 10;
-    margin-bottom: 20px;
-    font-size: 21px;
-    line-height: 1.4;
+.aos-init>a {
+    text-decoration: none;
+    color: white;
 }
 
-.carousel .item {
-    height: 800px;
+.aos-init>a:hover {
+    text-decoration: none;
+    color: white;
 }
 
-.carousel-inner .item img {
+.scroll-down {
     position: absolute;
-    min-width: 100%;
+    bottom: 20px;
+    left: 50%;
+    text-align: center;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.scroll-down>span {
+    position: relative;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    font-size: 13px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.carousel-control {
-    height: 780px;
+#about-us {
+    margin-top: 75px;
+}
+
+.about-header {
+    font-family: helvetica neue;
+    color: #1b578a;
+    font-size: 20px;
+    line-height: 1em;
+}
+
+.about-body {
+    font-family: "Work Sans";
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: .02em;
+    font-weight: 300;
+    color: black;
+}
+
+.footer {
+    box-shadow: 0px -0.5px 0px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-container>a {
+    font-size: 30px;
+    padding: 15px;
 }
 
 
-/* Schedule Images */
+/** Events page */
+
+#weekly-schedule {
+    margin-top: 100px;
+}
+
+.schedule-header {
+    font-family: helvetica neue;
+    color: #7eccbc;
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+#calendar {
+    margin-top: 30px;
+}
+
+.fc {
+    font-size: 0.9em !important;
+}
+
+.fc-toolbar-title {
+    font-family: helvetica neue;
+    font-size: 1.5em !important;
+}
+
+.fc-toolbar-chunk {
+    font-family: helvetica neue;
+}
+
+.event-header {
+    font-family: helvetica neue;
+    color: #7eccbc;
+    margin-top: 50px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.event-general-desc {
+    font-family: "Work Sans";
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: .02em;
+    font-weight: 300;
+    color: black;
+}
 
 .event {
     display: flex;
     width: 100%;
 }
 
-.eventinfo {
+.event-info {
     float: left;
     width: 50%;
-    margin-top: auto;
-    margin-bottom: auto;
-    clear: left;
+    font-family: "Work Sans";
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+.event-title {
+    font-family: helvetica neue;
+    color: #1b578a;
+    font-size: 20px;
+    line-height: 1em;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: 500;
+    font-style: normal;
 }
 
-.scheduleimg {
+.event-desc {
+    margin-top: 0px !important;
+    margin-right: 80px;
+}
+
+.event-info>p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: .02em;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+}
+
+.event-image {
     float: right;
-    height: 300px;
     width: 400px;
     height: auto;
     margin: 3px;
@@ -104,59 +326,286 @@ img {
 }
 
 
-/* Photo Galleries */
+/** Small Groups page*/
 
-.galleria {
-    height: 757px
+#small-group {
+    margin-top: 100px;
+}
+
+.small-group-header {
+    font-family: helvetica neue;
+    color: #7eccbc;
+    margin-top: 50px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.small-group-desc {
+    font-family: "Work Sans";
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: .02em;
+    font-weight: 300;
+    color: black;
+}
+
+.small-group {
+    display: flex;
+    width: 100%;
+}
+
+.sg-info {
+    float: left;
+    width: 50%;
+    font-family: "Work Sans";
+}
+
+.sg-title {
+    font-family: helvetica neue;
+    color: #1b578a;
+    font-size: 20px;
+    line-height: 1em;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.sg-focus {
+    margin-top: 0px !important;
+    margin-right: 80px;
+}
+
+.sg-details,
+.sg-focus {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: .02em;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+}
+
+.sg-image {
+    float: right;
+    width: 400px;
+    height: auto;
+    margin: 3px;
+    padding: 3px;
 }
 
 
-/* For 1024px laptop display */
+/** Churches page */
 
-@media screen and (max-width: 1024px) {
-    .carousel {
-        height: 640px;
-    }
-    .carousel .item {
-        height: 640px;
-    }
-    .carousel-control {
-        height: 640px;
-    }
+#church-rides {
+    margin-top: 100px;
+}
+
+.church-rides-header {
+    font-family: helvetica neue;
+    color: #7eccbc;
+    margin-top: 50px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.church-rides-desc {
+    font-family: "Work Sans";
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: .02em;
+    font-weight: 300;
+    color: black;
+}
+
+.church-tab-title {
+    font-family: "Work Sans";
+    font-size: 14px;
+    line-height: 1.5em;
+    letter-spacing: .02em;
+    font-weight: 500;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
+    background-color: transparent;
+}
+
+.church-title {
+    font-family: "Work Sans";
+    font-size: 18px;
+    line-height: 1.5em;
+    letter-spacing: .02em;
+    color: black;
+    margin-top: 20px;
+}
+
+.church-details {
+    font-family: "Work Sans";
+    font-size: 15px;
+    line-height: 1.5em;
+    letter-spacing: .02em;
+    font-weight: 300;
+    color: black;
+    margin-top: 20px;
+}
+
+
+/** Photos page */
+
+#photos {
+    margin-top: 100px;
+}
+
+.photos-header {
+    font-family: helvetica neue;
+    color: #7eccbc;
+    margin-top: 50px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.photos-desc {
+    font-family: "Work Sans";
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: .02em;
+    font-weight: 300;
+    color: black;
+}
+
+.album-header {
+    font-family: "Work Sans";
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.galleria {
+    height: 400px;
+    width: 500px;
+}
+
+
+/** Contacts page */
+
+#contacts {
+    margin-top: 100px;
+}
+
+.contacts-header {
+    font-family: helvetica neue;
+    color: #7eccbc;
+    margin-top: 50px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contacts-desc {
+    font-family: "Work Sans";
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: .02em;
+    font-weight: 300;
+    color: black;
+}
+
+.core-team-header,
+.sg-leaders-header {
+    font-family: helvetica neue;
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: black;
+    font-weight: 500;
+}
+
+.sg-leaders-header {
+    margin-top: 50px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    display: flex;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+}
+
+.leaders-details {
+    padding: 0 16px;
+}
+
+.leaders-img {
+    width: 100%;
+}
+
+.leaders-details::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.leaders-name {
+    font-family: "Work Sans";
+    font-size: 20px;
+    line-height: 1.5em;
+    letter-spacing: .02em;
+    font-weight: 500;
+    color: black;
+}
+
+.leaders-position,
+.leaders-info,
+.leaders-contact {
+    font-family: "Work Sans";
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: .02em;
+    font-weight: 300;
+    color: grey;
+}
+
+.leaders-info,
+.leaders-contact {
+    color: black;
 }
 
 
 /* For 768px tablet display */
 
 @media screen and (max-width: 768px) {
-    .header-who {
-        padding-top: 25px;
+    .navbar-title {
+        font-family: "Gloria Hallelujah";
+        height: 75px;
+        font-weight: 500;
+        font-size: 25px;
+        float: left;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
     }
-    .carousel {
-        height: 465px;
+    .navbar.navbar-inverse.navbar-static-top {
+        display: flex;
     }
-    .carousel .item {
-        height: 465px;
-        width: 724px;
-    }
-    .carousel-control {
-        height: 465px;
-        right: 12px;
-    }
-    .carousel-inner .item img {
-        min-width: 0%;
-    }
-    .carousel-caption {
-        font-size: 15px;
-    }
-    .carousel-caption .btn {
-        font-size: 13px;
-    }
-    .galleria {
-        padding-top: 20px;
-    }
-    body {
-        margin-bottom: 340px !important;
+    .column {
+        width: 100%;
+        display: block;
     }
 }
 
@@ -164,193 +613,25 @@ img {
 /* For 426px large mobile phone display */
 
 @media screen and (max-width: 426px) {
-    .announcements {
-        width: 400px;
-        height: 250px;
+    .navbar-inverse .navbar-collapse,
+    .navbar-inverse .navbar-form {
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+        background-color: white;
     }
-    .carousel {
-        height: 265px;
+    .navbar-wrapper {
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
     }
-    .carousel .item {
-        height: 305px;
-        width: 400px;
-    }
-    .carousel-control {
-        height: 265px;
-        right: 12px;
-    }
-    .carousel-inner .item img {
-        min-width: 0%;
-    }
-    .carousel-caption {
-        font-size: 10px;
-        margin-bottom: 0px;
-    }
-    .carousel-title {
-        font-size: 15px;
-    }
-    .carousel-caption .btn {
-        font-size: 8px;
-    }
-    .other-aacfs {
-        margin-bottom: 0px;
-    }
-    .other-aacf {
-        display: inline-flex;
-        margin-top: 2px;
-    }
-    .eventinfo {
-        font-size: 10px;
-    }
-    .event-title {
-        font-size: 12px;
-    }
-    .scheduleimg {
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-    .sg-description {
-        font-size: 12px;
-    }
-    .sg-description-title {
-        font-size: 20px;
-        font-weight: bold;
-    }
-    .smallgroups {
-        font-size: 12px;
-        margin-bottom: 80px;
-    }
-    .smallgroup-type {
-        font-size: 20px;
-        font-weight: bold;
-    }
-    .church-ride-title {
-        font-size: 25px;
-        font-weight: bold;
-    }
-    .church-description {
-        font-size: 15px;
-    }
-    .add-church {
-        margin-bottom: 50px;
-    }
-    .galleria {
-        padding-top: 20px;
-        height: 700px;
-        margin-bottom: 100px;
-    }
-    .contacts h1 {
-        font-size: 20px;
-    }
-    .contacts td {
-        font-size: 10px;
-    }
-    .contacts h4 {
-        font-size: 10px;
-    }
-    .contacts h5 {
-        font-size: 10px;
-    }
-    .contact-description {
-        font-size: 12px;
-    }
-    .sgleaders {
-        margin-bottom: 80px;
-    }
-    body {
-        margin-bottom: 260px !important;
+    .navbar.navbar-inverse.navbar-static-top {
+        display: block;
     }
 }
 
 
 /* For 375px medium mobile phone display */
 
-@media screen and (max-width: 375px) {
-    .navbar-brand {
-        margin-bottom: 15px;
-    }
-    .header-who {
-        padding-top: 30px;
-    }
-    .carousel {
-        height: 230px;
-    }
-    .carousel .item {
-        height: 230px;
-        width: 350px;
-    }
-    .carousel-control {
-        height: 230px;
-        right: 12px;
-    }
-    .carousel-caption {
-        font-size: 8px;
-        padding-bottom: 0px;
-        bottom: -5px;
-    }
-    .carousel-indicators {
-        bottom: -30px;
-    }
-    .carousel-title {
-        font-size: 12px;
-    }
-    .carousel-caption .btn {
-        font-size: 6px;
-    }
-    body {
-        margin-bottom: 280px !important;
-    }
-    .weekly-meetings {
-        margin-top: 30px;
-    }
-    .sg-description {
-        margin-top: 30px;
-    }
-    .church-ride-title {
-        margin-top: 30px;
-    }
-    .galleria {
-        margin-top: 20px;
-    }
-    .contacts h1 {
-        margin-top: 30px;
-    }
-}
+@media screen and (max-width: 375px) {}
 
 
 /* For 320px small mobile phone display */
 
-@media screen and (max-width: 320px) {
-    .carousel {
-        height: 190px;
-    }
-    .carousel .item {
-        height: 190px;
-        width: 290px;
-    }
-    .carousel-control {
-        height: 190px;
-        right: 12px;
-    }
-    .scheduleimg {
-        width: 150px;
-    }
-    .other-aacf {
-        display: inline-flex;
-        margin-top: 2px;
-    }
-    .text-muted {
-        font-size: 12px;
-    }
-    .social-media-icons {
-        width: 40px !important;
-        height: 40px !important;
-    }
-    .footer-end {
-        font-size: 13px;
-        display: inline-table;
-    }
-    .contacts h5 {
-        line-height: 1.5em;
-    }
-}
+@media screen and (max-width: 320px) {}
