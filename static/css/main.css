@@ -33,7 +33,7 @@ b {
 }
 
 
-/** Navbar */
+/* Navigation bar */
 
 .navbar-logo {
     max-width: 60px;
@@ -140,7 +140,27 @@ i.fas.fa-bars {
 }
 
 
-/** Home page */
+/* Footer */
+
+.footer {
+    box-shadow: 0px -0.5px 0px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-container>a {
+    font-size: 30px;
+    padding: 15px;
+}
+
+
+/* Home page */
 
 .site-overlay {
     background-size: cover;
@@ -152,11 +172,12 @@ i.fas.fa-bars {
     z-index: -1;
 }
 
-.site-overlay>img {
+.welcome-screen {
+    /*background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/Front_Page/Brothers_2020.jpg);*/
+    background-image: url(../../images/Front_Page/Brothers_2020.jpg);
     height: 100vh;
-    width: 100%;
     min-height: 700px;
-    object-fit: cover;
+    background-size: cover;
 }
 
 .aos-init>a {
@@ -190,6 +211,7 @@ i.fas.fa-bars {
     transform: rotate(90deg);
     font-size: 13px;
     display: block;
+    margin-top: 5px;
 }
 
 #about-us {
@@ -214,25 +236,8 @@ i.fas.fa-bars {
     color: black;
 }
 
-.footer {
-    box-shadow: 0px -0.5px 0px rgba(0, 0, 0, 0.3);
-    display: flex;
-    align-items: center;
-}
 
-.footer-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.footer-container>a {
-    font-size: 30px;
-    padding: 15px;
-}
-
-
-/** Events page */
+/* Events page */
 
 #weekly-schedule {
     margin-top: 100px;
@@ -326,7 +331,7 @@ i.fas.fa-bars {
 }
 
 
-/** Small Groups page*/
+/* Small Groups page*/
 
 #small-group {
     margin-top: 100px;
@@ -397,7 +402,7 @@ i.fas.fa-bars {
 }
 
 
-/** Churches page */
+/* Churches page */
 
 #church-rides {
     margin-top: 100px;
@@ -454,7 +459,7 @@ i.fas.fa-bars {
 }
 
 
-/** Photos page */
+/* Photos page */
 
 #photos {
     margin-top: 100px;
@@ -468,7 +473,7 @@ i.fas.fa-bars {
     margin-bottom: 20px;
 }
 
-.photos-desc {
+.photos-header-desc {
     font-family: "Work Sans";
     font-size: 16px;
     line-height: 1.5em;
@@ -491,7 +496,7 @@ i.fas.fa-bars {
 }
 
 
-/** Contacts page */
+/* Contacts page */
 
 #contacts {
     margin-top: 100px;
@@ -586,9 +591,20 @@ i.fas.fa-bars {
 }
 
 
+/* For 1024px laptop display */
+
+@media screen and (max-width: 1024px) {
+    /* Home page */
+    .welcome-screen {
+        background-position-x: -100px;
+    }
+}
+
+
 /* For 768px tablet display */
 
 @media screen and (max-width: 768px) {
+    /* Navigation bar */
     .navbar-title {
         font-family: "Gloria Hallelujah";
         height: 75px;
@@ -603,16 +619,17 @@ i.fas.fa-bars {
     .navbar.navbar-inverse.navbar-static-top {
         display: flex;
     }
+    /* Contacts page */
     .column {
-        width: 100%;
-        display: block;
+        width: 33%;
     }
 }
 
 
-/* For 426px large mobile phone display */
+/* For 425px large mobile phone display */
 
 @media screen and (max-width: 426px) {
+    /* Navigation bar */
     .navbar-inverse .navbar-collapse,
     .navbar-inverse .navbar-form {
         box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
@@ -624,14 +641,133 @@ i.fas.fa-bars {
     .navbar.navbar-inverse.navbar-static-top {
         display: block;
     }
+    /* Home page */
+    .welcome-screen {
+        background-position-x: -400px;
+    }
+    .about-body {
+        font-size: 14px;
+    }
+    /* Events page */
+    .schedule-header,
+    .event-header {
+        font-size: 20px;
+    }
+    .event-general-desc {
+        font-size: 14px;
+    }
+    .event-desc {
+        margin-right: 0px;
+    }
+    .event-title {
+        font-size: 12px;
+    }
+    .event-desc,
+    .event-info>p {
+        font-size: 10px;
+    }
+    .event-image {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .event-image>img {
+        max-width: 80%;
+        left: 30px;
+        position: relative;
+    }
+    /* Small Groups page*/
+    .small-group-header {
+        font-size: 20px;
+    }
+    .small-group-desc {
+        font-size: 14px;
+    }
+    .sg-title {
+        font-size: 12px;
+    }
+    .sg-focus,
+    .sg-details {
+        font-size: 10px;
+        margin-right: 0px;
+    }
+    .sg-image {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .sg-image>img {
+        max-width: 80%;
+        left: 30px;
+        position: relative;
+    }
+    /* Churches page */
+    .church-rides-header {
+        font-size: 20px;
+    }
+    .church-rides-desc {
+        font-size: 14px;
+    }
+    .church-title {
+        font-size: 14px;
+    }
+    .church-details {
+        font-size: 13px;
+    }
+    /* Photos page */
+    .photos-header {
+        font-size: 20px;
+    }
+    .photos-header-desc {
+        font-size: 14px;
+    }
+    .album-header {
+        font-size: 16px;
+    }
+    .galleria {
+        height: 300px;
+        width: 375px;
+    }
+    /* Contacts page */
+    .contacts-header {
+        font-size: 20px;
+    }
+    .contacts-desc {
+        font-size: 14px;
+    }
+    .core-team-header,
+    .sg-leaders-header {
+        font-size: 20px;
+    }
+    .leaders-name {
+        font-size: 16px;
+    }
+    .leaders-position,
+    .leaders-info,
+    .leaders-contact {
+        font-size: 14px;
+    }
+    .column {
+        width: 50%;
+    }
 }
 
 
 /* For 375px medium mobile phone display */
 
-@media screen and (max-width: 375px) {}
+@media screen and (max-width: 376px) {
+    /* Photos page */
+    .galleria {
+        height: 275px;
+        width: 343.75px;
+    }
+}
 
 
 /* For 320px small mobile phone display */
 
-@media screen and (max-width: 320px) {}
+@media screen and (max-width: 320px) {
+    /* Photos page */
+    .galleria {
+        height: 240px;
+        width: 300px;
+    }
+}

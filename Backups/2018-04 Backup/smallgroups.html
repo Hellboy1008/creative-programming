@@ -1,0 +1,288 @@
+﻿<!DOCTYPE html>
+
+<html>
+  <head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Created this page for my college fellowship so that they know where to go every Monday and Thursday. If this page didn't exist, they would get lost and I would have to take responsibility.">
+    <meta name="author" content="Lauwood">
+	<link rel="stylesheet" type="text/css" media="screen" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/lucky.css">
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+    
+	
+	<title>AACF UCSD</title>
+	
+	
+	<SCRIPT LANGUAGE="JavaScript">
+<!--  Begin
+var crlf = "\r\n";
+var x = 1;
+var y = 1;
+var dx = 1;
+var dy = 1;
+var s = "";
+var u = 0;
+var oops_flag = false;
+var score = 0;
+function move1() {
+x += dx;
+if (x > 31) {
+x -= 2 * Math.abs(dx);
+if (dx > 0) dx = -dx;
+}
+if (x <  0) {
+x += 2 * Math.abs(dx);
+if (dx < 0) dx = -dx;
+}
+y += dy;
+if (y > 14) {
+y -= 2 * Math.abs(dy);
+if (dy > 0) dy = -dy;
+if (Math.abs(x - 2*u - 1) > 2) {
+oops_flag = true;
+}
+else {
+score += 1;
+   }
+}
+if (y <  0) { y += 2 * Math.abs(dy);
+if (dy < 0) dy = -dy; }
+}
+function display1() {
+var s1 = ""
+var i,j;
+if (oops_flag) return "Oops!! That one got by you!  Feel free to play again!";
+for (j=0;j<15;j++) {
+for (i=0;i<32;i++) {
+if (j == y && i == x) s1 += "o";
+else s1 += ".";
+}
+s1 += crlf;
+}
+var s2 = "";
+for (i=0;i<16;i++) {
+if (u == i) s2 += "==";
+ else s2 += "..";
+}
+return (s1+s2);
+}
+var timerID = null;
+var timerRunning = false;
+var myform;
+function stopclock (){
+if(timerRunning) clearTimeout(timerID);
+timerRunning = false;
+}
+function startclock (form) {
+myform = form;
+oops_flag = false;
+if (navigator.userAgent.indexOf("Mac") > 2) crlf = "\n";
+stopclock();
+dotime();
+}
+function dotime() {
+move1();
+if (myform != null) {
+myform.text3.value = display1();
+myform.score.value = " " + score;
+}
+if (!oops_flag) timerID = setTimeout("dotime()",200);
+timerRunning = true;
+}
+// End -->
+</SCRIPT>
+	
+	
+  </head>
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">Asian American Christian Fellowship UCSD</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="schedule.html">Our Schedule</a></li>
+                    <li class="active"><a href="smallgroups.html">Small Groups</a></li>
+                    <li><a href="church-rides.html">Church Rides</a></li>
+                    <li class="dropdown">
+                        <a href="photos.html" class="dropdown-toggle" data-toggle="dropdown">Our Photos <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li class="dropdown-header">Years</li>
+                            <li><a href="photos/2013.html">2013-14</a></li>
+                            <li><a href="photos/2014.html">2014-15</a></li>
+                            <li><a href="photos/2015.html">2015-16</a></li>
+                            <li><a href="photos/2016.html">2016-17</a></li>
+                            <li><a href="photos/2017.html">2017-18</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+	<div class="container" style="margin-top: 125px">
+		<h1>Small Groups</h1>
+        We have scheduled times to meet up and study the Bible, along with grow deeper relationships with one another.<br />
+        These are known as small groups. They are available every week, with some weeks offering special formats.<br />
+        Some of the small groups have do not meet at the same location every week. To receive the latest updates on these, join our Facebook page or email list!
+    
+    <hr>
+    <p>
+        <h3><b>Freshmen Co-ed Small Groups (Freshmen)</b></h3>
+        Thursdays @ 8:00PM<br>
+        Location: ERC 101-1 <br>
+        Contact Jason Ly (818-294-4613) or Jennifer Chow (925-785-2347)<br /><br />
+        Designed for the freshmen class to learn together and form lasting relationships to start off their college career.
+    </p>
+
+    <p>
+        <h3><b>Men's Small Group (Sophomores &amp; Juniors &amp; Seniors)</b></h3>
+        Thursdays @ 8:00PM<br>
+        Location: Center <br>
+        Contact James Liang (626-353-2555) or Ethan Lowe (805-405-1754)<br /><br />
+        Lessons and discussions catered towards men and their needs.
+    </p>
+
+    <p>
+        <h3><b>Women's Small Group (Sophomores &amp; Juniors &amp; Seniors)</b></h3>
+        Thursdays @ 8:00PM<br>
+        Location: Keeling 3603 <br>
+        Contact Tesia Huang (408-646-3666) or Rebecca Chan (626-802-8958)<br /><br />
+        Lessons and discussions catered towards women and their needs.
+    </p>
+
+    <p>
+        <h3><b>Basics Small Group</b></h3>
+        Tuesdays @ 8:00PM<br />
+        Location: Center <br />
+        Contact Sherman Lee (909-569-8619) or Sarah Du (858-605-8373)<br /><br />
+        Designed for new believers, seekers, or those looking to refresh their knowledge of the fundamentals of Christianity.
+    </p>
+
+    <hr />
+
+    <h2>Special Small Groups</h2>
+
+    <hr />
+
+    <p>
+        <h3><b>Joint Small Group</b></h3>
+        Week 5<br />
+        Men's: <br />
+        Women's: <br />
+    </p>
+
+    <hr />
+
+    <p>
+        <h3><b>Combined Small Group</b></h3>
+        Week 9<br />
+        #1: <br />
+        #2: <br />
+    </p>
+
+    <br />
+
+    <!--
+    <p>
+    <h3>Sophresh Girls (Freshmen &amp; Sophomores)</h3>
+    Tuesdays @ 7:30PM<br>
+    Located at Marshall Uppers M16<br><br>
+    Contact Kaitlin Cheng (562) 413-8887 or Rachel To (858) 216-5973
+    </p>
+    
+    <hr>
+    
+    <p>
+    <h3>Upper Girls (Juniors &amp; Seniors)</h3>
+    Tuesdays @ 8:30PM<br>
+    Located at Venetian Apartments (off-campus) <br><br>
+    Contact Ruby Nguyen (562) 607-5232 or Alexis Tam (714) 209-1814
+    </p>
+    
+    <hr>
+    
+    <p>
+    <h3>BoB's (Band of Brothers) Freshmen &amp; Juniors</h3>
+    Thursdays @ 8PM<br>
+    Located at Muir Tamarack Apartments 904<br><br>
+    Contact Dusten Hom (415) 887-8788 or Cory Wei (714) 222-0353
+    </p>
+    
+    <hr>
+
+    <p>
+    <h3>BoB's (Band of Brothers) Sophomores &amp; Seniors</h3>
+    Thursdays @ 8PM<br>
+    Located at Sixth Apartments 424<br><br>
+    Contact Addison Bi (626) 297-9767 or Wesley Lau (626) 251-0673
+    </p>
+    -->
+
+		
+		
+<!-- <center><h1>Pong</h1>
+Press start to play.  Move the paddle by putting your cursor on the dashes.
+<p>
+<form name=form>
+<textarea name=text3 rows=16 cols=34 wrap>[game field]</textarea><p>
+<p>
+<a href="" onMouseOver="u =0">\\\</a>
+<a href="" onMouseOver="u =1">\\\</a>
+<a href="" onMouseOver="u =2">\\\</a>
+<a href="" onMouseOver="u =3">\\\</a>
+<a href="" onMouseOver="u =4">\\\</a>
+<a href="" onMouseOver="u =5">\\\</a>
+<a href="" onMouseOver="u =6">\\\</a>
+<a href="" onMouseOver="u =7">\\\</a>
+<a href="" onMouseOver="u =8">\\\</a>
+<a href="" onMouseOver="u =9">\\\</a>
+<a href="" onMouseOver="u = 10">\\\</a>
+<a href="" onMouseOver="u = 11">\\\</a>
+<a href="" onMouseOver="u = 12">\\\</a>
+<a href="" onMouseOver="u = 13">\\\</a>
+<a href="" onMouseOver="u = 14">\\\</a>
+<a href="" onMouseOver="u = 15">\\\</a>
+<a href="" onMouseOver="u = 15">\\\</a><p>
+<input type=button name=button1 value="Start" onCLick="startclock(this.form)">
+Score: <input type=text name=score size=10 value=0>
+</form>
+</center> -->
+		
+		
+	</div>
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="css/foot.css">
+	<div class="footer">
+      <div class="container">
+          <p class="text-muted">
+              Contact us using our e-mail! <a href="mailto:aacf.ucsd@gmail.com">aacf.ucsd@gmail.com</a><br><br>
+              Any questions about Christianity? Ask us here! <a href="mailto:aacf.questions@gmail.com">aacf.questions@gmail.com</a><br /><br />
+              <a href="https://www.facebook.com/groups/AacfUcsd/">
+                  <img src="FBLogo.png" alt="Facebook" style="width:100px;height:100px" />
+              </a>
+              <a href="https://www.instagram.com/aacfucsd/?hl=en">
+                  <img src="IGLogo.png" alt="Instagram" style="width:100px;height:100px" />
+              </a><br /><br />
+              <a href="http://www.aacfla.org">aacf @ ucla</a><br><br>
+              <a href="https://sites.google.com/site/aacfucsb/">aacf @ ucsb</a><br><br>
+              <a href="http://aacfucr.com/">aacf @ ucr</a><br><br>
+        </div>
+    </div>
+  </body>
+</html>
