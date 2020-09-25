@@ -642,6 +642,10 @@ i.fas.fa-bars {
         display: block;
     }
     /* Home page */
+    .site-overlay {
+        min-height: 730px;
+        height: 80vh;
+    }
     .welcome-screen {
         background-position-x: -400px;
     }
