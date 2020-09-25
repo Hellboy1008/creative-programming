@@ -81,10 +81,9 @@ var events = {
         "FA2020 LG 1": {
             allDay: false,
             start: "2020-10-05T20:00:00",
-            title: "FA Large Group 1",
+            title: "Fall Week 1 Large Group",
             url: ""
         },
-
     }
 }
 
