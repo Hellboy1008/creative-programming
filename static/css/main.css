@@ -642,12 +642,8 @@ i.fas.fa-bars {
         display: block;
     }
     /* Home page */
-    .site-overlay {
-        height: 100%;
-    }
     .welcome-screen {
         background-position-x: -400px;
-        height: 100%;
     }
     .about-body {
         font-size: 14px;
