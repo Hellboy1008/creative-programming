@@ -24,6 +24,7 @@
     <script src="static/js/jquery-2.1.1.min.js" type="text/javascript"></script>
     <script src="static/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="static/js/json/events-json.js"></script>
+    <script src="static/js/json/footer-json.js"></script>
     <script src="static/js/events.js" type="text/javascript"></script>
     <script src="static/calendar/main.js"></script>
 
@@ -58,125 +59,32 @@
 
     <!-- Weekly Schedule -->
     <section id="weekly-schedule" class="container">
-        <h1 class="schedule-header">Weekly Schedule</h1>
-        <p class="event-general-desc">Times are displayed in PDT.</p>
+        <h1 class="schedule-header" id="schedule_header"></h1>
+        <p class="event-general-desc" id="schedule_body"></p>
         <div id="calendar"></div>
     </section>
 
     <section id="weekly-events" class="container">
-        <h1 class="event-header">Weekly Events</h1>
-        <p class="event-general-desc">Some of our activities do not have the same location or time every week, so we will be updating the calendar as frequently as we can. To receive the latest updates on these activities, join our Facebook page or email list!</p>
+        <h1 class="event-header" id="events_header"></h1>
+        <p class="event-general-desc" id="events_body"></p>
         <hr>
     </section>
 
     <!-- Event Descriptions -->
     <section id="event-descriptions" class="container">
-        <!-- Large Group -->
-        <div class="event">
-            <div class="event-info">
-                <h1 class="event-title">Large Group</h1>
-                <p class="event-desc">Gather together with the community for worship and learning!</p>
-                <p>
-                    <b>When: </b>TBD<br> <b>Zoom Meeting ID:</b> TBD<br>
-                    <a href="https://drive.google.com/drive/folders/1aJXlQDJ9CxGYqr_Q-PBYsN86Ho576IH8?fbclid=IwAR0sS7HvmeMO1f4ebQQmbFuQBhizLWpTCagWLmtZH3nl8ISR0v2_AzW-ysE" target="_blank">Listen to our Sermons here!</a>
-                </p>
-
-                <h1 class="event-title">
-                    <br> Pre-Large Group Dinner
-                </h1>
-                <p class="event-desc">Join us before large group to eat and fellowship!</p>
-                <p>
-                    <b>When:</b> Every Monday 7:00pm<br> <b>Where:</b> Cancelled due to Covid-19<br> <b>Contact Person:</b>
-                </p>
-            </div>
-            <div class="event-image">
-                <img src="images/Schedule/Large_Group.jpg">
-            </div>
-        </div>
-        <hr>
-        <!-- Massive Lunch -->
-        <div class="event">
-            <div class="event-info">
-                <h1 class="event-title">Massive Lunch</h1>
-                <p class="event-desc">Looking for some company to eat with? Bring your lunch and come join us!</p>
-                <p>
-                    <b>When:</b> Every Tuesday 11:00am<br> <b>Where:</b> Cancelled due to Covid-19<br> <b>Contact Person:</b>
-                </p>
-            </div>
-            <div class="event-image">
-                <img src="images/Schedule/Massive_Lunch.png">
-            </div>
-        </div>
-        <hr>
-        <!-- Basketball -->
-        <div class="event">
-            <div class="event-info">
-                <h1 class="event-title">Basketball</h1>
-                <p class="event-desc">Come out and play or watch some basketball, or just hang out with one another!</p>
-                <p>
-                    <b>When:</b> Every Thursday 10:30pm<br> <b>Where:</b> Cancelled due to Covid-19<br> <b>Contact Person:</b>
-                </p>
-            </div>
-            <div class="event-image">
-                <img src="images/Schedule/Basketball.jpg">
-            </div>
-        </div>
-        <hr>
-        <!-- Prayer Meeting -->
-        <div class="event">
-            <div class="event-info">
-                <h1 class="event-title">Prayer Meeting</h1>
-                <p class="event-desc">Pray over the people of AACF, the campus, and the world together!</p>
-                <p>
-                    <b>When: </b>TBD<br><b>Zoom Meeting ID: </b>TBD<br><b>Contact Person:</b>
-                </p>
-            </div>
-            <div class="event-image">
-                <img src="images/Schedule/Prayer_Meeting.jpg">
-            </div>
-        </div>
-        <hr>
-        <!-- HOPE -->
-        <div class="event">
-            <div class="event-info">
-                <h1 class="event-title">HOPE</h1>
-                <p class="event-desc">HOPE is an intentional time of prayer for each other, our campus, and the world. We will also be doing different types of prayer activities to broaden our horizon on prayer.</p>
-                <p>
-                    <b>When: </b>TBD<br> <b>Zoom Meeting ID: </b>TBD<br> <b>Contact Person:</b>
-                </p>
-            </div>
-            <div class="event-image">
-                <img src="images/Schedule/HOPE.jpg">
-            </div>
-        </div>
-        <hr>
-        <!-- Campus Evangelism -->
-        <div class="event">
-            <div class="event-info">
-                <h1 class="event-title">Campus Evangelism</h1>
-                <p class="event-desc">Partner up and spread the life-changing message of Jesus Christ to the campus!</p>
-                <p>
-                    <b>When:</b> Every Friday 10:00am<br> <b>Where:</b> Cancelled due to Covid-19<br> <b>Contact Person:</b>
-                </p>
-            </div>
-            <div class="event-image">
-                <img src="images/Schedule/Campus_EV.jfif">
-            </div>
-        </div>
-        <hr>
     </section>
 
     <!-- footer -->
     <section id="footer">
         <div class="footer">
             <div class="footer-container ">
-                <a href="mailto:aacf.ucsd@aacf.org">
+                <a id="aacf_email">
                     <i class="far fa-envelope " aria-hidden="true "></i>
                 </a>
-                <a href="https://www.facebook.com/groups/683792395810939" target="_blank">
+                <a id="aacf_fb" target="_blank">
                     <i class="fab fa-facebook-square " aria-hidden="true "></i>
                 </a>
-                <a href="https://www.instagram.com/aacfucsd" target="_blank">
+                <a id="aacf_insta" target="_blank">
                     <i class="fab fa-instagram " aria-hidden="true "></i>
                 </a>
             </div>

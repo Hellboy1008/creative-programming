@@ -174,7 +174,6 @@ i.fas.fa-bars {
 
 .welcome-screen {
     /*background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/Front_Page/Brothers_2020.jpg);*/
-    background-image: url(../../images/Front_Page/Brothers_2020.jpg);
     height: 100vh;
     min-height: 700px;
     background-size: cover;
@@ -220,9 +219,9 @@ i.fas.fa-bars {
 
 .about-header {
     font-family: helvetica neue;
-    color: #1b578a;
     font-size: 20px;
     line-height: 1em;
+    color: #1b578a;
 }
 
 .about-body {
@@ -243,11 +242,13 @@ i.fas.fa-bars {
     margin-top: 100px;
 }
 
-.schedule-header {
+.schedule-header,
+.event-header {
     font-family: helvetica neue;
     color: #7eccbc;
     margin-top: 50px;
     font-size: 24px;
+    margin-bottom: 20px;
 }
 
 #calendar {
@@ -265,14 +266,6 @@ i.fas.fa-bars {
 
 .fc-toolbar-chunk {
     font-family: helvetica neue;
-}
-
-.event-header {
-    font-family: helvetica neue;
-    color: #7eccbc;
-    margin-top: 50px;
-    font-size: 24px;
-    margin-bottom: 20px;
 }
 
 .event-general-desc {
@@ -326,7 +319,7 @@ i.fas.fa-bars {
     float: right;
     width: 400px;
     height: auto;
-    margin: 3px;
+    margin: auto;
     padding: 3px;
 }
 
@@ -397,7 +390,7 @@ i.fas.fa-bars {
     float: right;
     width: 400px;
     height: auto;
-    margin: 3px;
+    margin: auto;
     padding: 3px;
 }
 

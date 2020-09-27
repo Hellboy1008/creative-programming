@@ -21,6 +21,9 @@
 
     <script src="static/js/jquery-2.1.1.min.js" type="text/javascript"></script>
     <script src="static/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="static/js/json/contact-json.js" type="text/javascript"></script>
+    <script src="static/js/json/footer-json.js"></script>
+    <script src="static/js/contact.js" type="text/javascript"></script>
 
 </head>
 
@@ -52,183 +55,21 @@
 
     <!-- contacts -->
     <section id="contacts" class="container">
-        <h1 class="contacts-header">Contact</h1>
-        <p class="contacts-desc">
-            If you would like more info, contact us using our e-mail: <a href="mailto:aacf.ucsd@aacf.org">aacf.ucsd@aacf.org</a><br>If you would like to speak with one of our leaders, their info is listed below:
-        </p>
+        <h1 class="contacts-header" id="contact_header"></h1>
+        <p class="contacts-desc" id="contact_body"></p>
         <hr>
     </section>
 
     <!-- core team -->
     <section id="core-team" class="container">
-        <h1 class="core-team-header">Our Core Team</h1>
-        <!-- row 1 -->
-        <div class="row">
-            <!-- person 1 -->
-            <div class="column">
-                <div class="card">
-                    <img class="leaders-img" src="images/Leaders/Lance.png">
-                    <div class="leaders-details">
-                        <h2 class="leaders-name">Lance Mashita</h2>
-                        <p class="leaders-position">Core Coordinator</p>
-                        <p class="leaders-info">4th Year<br>Management Science</p>
-                        <p class="leaders-contact">(714) 473-5688</p>
-                    </div>
-                </div>
-            </div>
-            <!-- person 2 -->
-            <div class="column">
-                <div class="card">
-                    <img class="leaders-img" src="images/Leaders/Jung.jpg">
-                    <div class="leaders-details">
-                        <h2 class="leaders-name">Jung Yue</h2>
-                        <p class="leaders-position">Core Coordinator</p>
-                        <p class="leaders-info">4th Year<br>Cognitive Science</p>
-                        <p class="leaders-contact">(626) 560-8489</p>
-                    </div>
-                </div>
-            </div>
-            <!-- person 3 -->
-            <div class="column">
-                <div class="card">
-                    <img class="leaders-img" src="images/Leaders/Kwok.png">
-                    <div class="leaders-details">
-                        <h2 class="leaders-name">Kwok Wong</h2>
-                        <p class="leaders-position">Small Group & Reach</p>
-                        <p class="leaders-info">5th Year<br>Cognitive Science</p>
-                        <p class="leaders-contact">(415) 608-1014</p>
-                    </div>
-                </div>
-            </div>
-            <!-- person 4 -->
-            <div class="column">
-                <div class="card">
-                    <img class="leaders-img" src="images/Leaders/Tyler.png">
-                    <div class="leaders-details">
-                        <h2 class="leaders-name">Tyler Huang</h2>
-                        <p class="leaders-position">Worship & Reach</p>
-                        <p class="leaders-info">3rd Year<br>Neurobiology</p>
-                        <p class="leaders-contact">(858) 900-7462</p>
-                    </div>
-                </div>
-            </div>
-            <!-- person 5 -->
-            <div class="column">
-                <div class="card">
-                    <img class="leaders-img" src="images/Leaders/Stephen.jpg">
-                    <div class="leaders-details">
-                        <h2 class="leaders-name">Stephen Lee</h2>
-                        <p class="leaders-position">Men's & Administration</p>
-                        <p class="leaders-info">3rd Year<br>Cognitive Science</p>
-                        <p class="leaders-contact">(862) 881-9028</p>
-                    </div>
-                </div>
-            </div>
-            <!-- person 6 -->
-            <div class="column">
-                <div class="card">
-                    <img class="leaders-img" src="images/Leaders/Emi.png">
-                    <div class="leaders-details">
-                        <h2 class="leaders-name">Emi Okuno</h2>
-                        <p class="leaders-position">Women's & Finance</p>
-                        <p class="leaders-info">3rd Year<br>Developmental Psychology</p>
-                        <p class="leaders-contact">(626) 999-0993</p>
-                    </div>
-                </div>
-            </div>
-            <!-- person 7 -->
-            <div class="column">
-                <div class="card">
-                    <img class="leaders-img" src="images/Leaders/Nathan.png">
-                    <div class="leaders-details">
-                        <h2 class="leaders-name">Nathan Pun</h2>
-                        <p class="leaders-position">Prayer & Discipleship</p>
-                        <p class="leaders-info">4th Year<br>Chemical Engineering</p>
-                        <p class="leaders-contact">(626) 610-6178</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <h1 class="core-team-header" id="core_header"></h1>
+        <div class="row" id="core_team"></div>
     </section>
 
     <!-- small group leaders -->
     <section id="sg-leaders" class="container">
-        <h1 class="sg-leaders-header">Our Small Group Leaders</h1>
-        <!-- row 1 -->
-        <div class="row">
-            <!-- person 1 -->
-            <div class="column">
-                <div class="card">
-                    <img class="leaders-img" src="images/Leaders/Joey.png">
-                    <div class="leaders-details">
-                        <h2 class="leaders-name">Joey Truong</h2>
-                        <p class="leaders-position">Men's SG Leader</p>
-                        <p class="leaders-info">4th Year<br>Molecular and Cell Biology</p>
-                        <p class="leaders-contact">(415) 713-9218</p>
-                    </div>
-                </div>
-            </div>
-            <!-- person 2 -->
-            <div class="column">
-                <div class="card">
-                    <img class="leaders-img" src="images/Leaders/Thomas.png">
-                    <div class="leaders-details">
-                        <h2 class="leaders-name">Thomas Tang</h2>
-                        <p class="leaders-position">Men's SG Leader</p>
-                        <p class="leaders-info">4th Year<br>Computer Science</p>
-                        <p class="leaders-contact">(626) 782-3104</p>
-                    </div>
-                </div>
-            </div>
-            <!-- person 3 -->
-            <div class="column">
-                <div class="card">
-                    <img class="leaders-img" src="images/Leaders/Luann.jpg">
-                    <div class="leaders-details">
-                        <h2 class="leaders-name">Luann Huang</h2>
-                        <p class="leaders-position">Women's SG Leader</p>
-                        <p class="leaders-info">4th Year<br>Social Psychology and Education</p>
-                        <p class="leaders-contact">(657) 281-9787</p>
-                    </div>
-                </div>
-            </div>
-            <!-- person 4 -->
-            <div class="column">
-                <div class="card">
-                    <img class="leaders-img" src="images/Leaders/Dorothy.png">
-                    <div class="leaders-details">
-                        <h2 class="leaders-name">Dorothy Tsai</h2>
-                        <p class="leaders-position">Women's SG Leader</p>
-                        <p class="leaders-info">2nd Year<br>Molecular and Cell Biology</p>
-                        <p class="leaders-contact">djtsai@ucsd.edu</p>
-                    </div>
-                </div>
-            </div>
-            <!-- person 5 -->
-            <div class="column">
-                <div class="card">
-                    <img class="leaders-img" src="images/Leaders/Elizabeth.png">
-                    <div class="leaders-details">
-                        <h2 class="leaders-name">Elizabeth Tov</h2>
-                        <p class="leaders-position">Freshman SG Leader</p>
-                        <p class="leaders-info">2nd Year<br>Education</p>
-                        <p class="leaders-contact">(415) 994-6556</p>
-                    </div>
-                </div>
-            </div>
-            <!-- person 6 -->
-            <div class="column">
-                <div class="card">
-                    <img class="leaders-img" src="images/Leaders/Trung.png">
-                    <div class="leaders-details">
-                        <h2 class="leaders-name">Tin-Trung Pham</h2>
-                        <p class="leaders-position">Freshman SG Leader</p>
-                        <p class="leaders-info">2nd Year<br>Computer Science</p>
-                        <p class="leaders-contact">(714) 251-3407</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <h1 class="sg-leaders-header" id="sg_leaders_header"></h1>
+        <div class="row" id="sg_team"></div>
         <hr>
     </section>
 
@@ -236,13 +77,13 @@
     <section id="footer">
         <div class="footer">
             <div class="footer-container ">
-                <a href="mailto:aacf.ucsd@aacf.org">
+                <a id="aacf_email">
                     <i class="far fa-envelope " aria-hidden="true "></i>
                 </a>
-                <a href="https://www.facebook.com/groups/683792395810939" target="_blank">
+                <a id="aacf_fb" target="_blank">
                     <i class="fab fa-facebook-square " aria-hidden="true "></i>
                 </a>
-                <a href="https://www.instagram.com/aacfucsd" target="_blank">
+                <a id="aacf_insta" target="_blank">
                     <i class="fab fa-instagram " aria-hidden="true "></i>
                 </a>
             </div>
