@@ -64,13 +64,13 @@ var events = {
             allDay: false,
             start: "2020-09-28T15:00:00",
             title: "Online Escape Room",
-            url: ""
+            url: "https://www.facebook.com/events/3275266462570407/"
         },
         "Virtual Baking Night": {
             allDay: false,
             start: "2020-09-30T20:00:00",
             title: "Virtual Baking Night",
-            url: ""
+            url: "https://www.facebook.com/events/2882744395278684/"
         },
         "Late-Afternoon Games": {
             allDay: false,
