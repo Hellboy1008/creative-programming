@@ -163,7 +163,7 @@ var events = {
             allDay: false,
             start: "2020-10-02T15:00:00",
             title: "Late-Afternoon Games",
-            url: ""
+            url: "https://www.facebook.com/events/2618148985104734"
         },
         "FA2020 LG 1": {
             allDay: false,
