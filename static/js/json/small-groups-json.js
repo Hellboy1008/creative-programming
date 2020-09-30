@@ -34,7 +34,7 @@ var sg_text = {
         'freshman_sg': {
             title: 'Freshman Small Group',
             details: {
-                'When': 'TBD',
+                'When': 'Tuesdays 8pm',
                 'Zoom Meeting ID': 'TBD',
                 'Leaders': 'Elizabeth Tov (415) 994-6556 & Tin-Trung Pham (714) 251-3407'
             },
@@ -44,7 +44,7 @@ var sg_text = {
         'mens_sg': {
             title: "Men's Small Group",
             details: {
-                'When': 'TBD',
+                'When': 'Thursdays 8pm',
                 'Zoom Meeting ID': 'TBD',
                 'Leaders': 'Thomas Tang (626) 782-3104 & Joey Truong (415) 713-9218'
             },
