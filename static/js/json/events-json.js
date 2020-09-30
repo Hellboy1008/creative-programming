@@ -17,7 +17,7 @@ var events_text = {
                 description: "Gather together with the community for worship and learning!",
                 details: {
                     "When": "Every Monday 8:00pm",
-                    "Zoom Meeting ID": "98845881773"
+                    "Zoom Meeting ID": "988-4588-1773"
                 },
                 sermon_link: "https://drive.google.com/drive/folders/1aJXlQDJ9CxGYqr_Q-PBYsN86Ho576IH8?fbclid=IwAR0sS7HvmeMO1f4ebQQmbFuQBhizLWpTCagWLmtZH3nl8ISR0v2_AzW-ysE",
                 sermon_text: "Listen to our Sermons here!"
@@ -34,6 +34,18 @@ var events_text = {
         },
         other: {
             /** Archived Events 
+             * 
+             *  hope: {
+                    title: "HOPE",
+                    description: "HOPE is an intentional time of prayer for each other, our campus, and the world. We will also be doing different types of prayer activities to broaden our horizon on prayer.",
+                    details: {
+                        "When": "TBD",
+                        "Zoom Meeting ID": "TBD",
+                        "Contact Person": ""
+                    },
+                    image: "images/Schedule/HOPE.jpg"
+                }
+             * 
              *
              */
             basketball: {
@@ -55,16 +67,6 @@ var events_text = {
                     "Contact Person": ""
                 },
                 image: "images/Schedule/Campus_EV.jfif"
-            },
-            hope: {
-                title: "HOPE",
-                description: "HOPE is an intentional time of prayer for each other, our campus, and the world. We will also be doing different types of prayer activities to broaden our horizon on prayer.",
-                details: {
-                    "When": "TBD",
-                    "Zoom Meeting ID": "TBD",
-                    "Contact Person": ""
-                },
-                image: "images/Schedule/HOPE.jpg"
             },
             massive_lunch: {
                 title: "Massive Lunch",
@@ -168,6 +170,24 @@ var events = {
         "FA2020 LG 1": {
             allDay: false,
             start: "2020-10-05T20:00:00",
+            title: "Fall Large Group",
+            url: ""
+        },
+        "FA2020 LG 2": {
+            allDay: false,
+            start: "2020-10-12T20:00:00",
+            title: "Fall Large Group",
+            url: ""
+        },
+        "FA2020 LG 3": {
+            allDay: false,
+            start: "2020-10-19T20:00:00",
+            title: "Fall Large Group",
+            url: ""
+        },
+        "FA2020 LG 4": {
+            allDay: false,
+            start: "2020-10-26T20:00:00",
             title: "Fall Large Group",
             url: ""
         },
