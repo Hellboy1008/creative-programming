@@ -54,11 +54,11 @@ var sg_text = {
         'womens_sg': {
             title: "Women's Small Group",
             details: {
-                'When': 'TBD',
-                'Zoom Meeting ID': 'TBD',
+                'When': 'Wednesdays 8pm',
+                'Zoom Meeting ID': '960 5718 6580',
                 'Leaders': 'Luann Huang (657) 281-9787 & Dorothy Tsai (djtsai@ucsd.edu)'
             },
-            focus: 'Focus for fall quarter:',
+            focus: 'Focus for fall quarter: Proactively dying to our earthly self',
             image: 'images/Small_Groups/Womens_SG.jpg'
         }
     }
