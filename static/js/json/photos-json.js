@@ -5,7 +5,7 @@
  */
 
 var photos_text = {
-    photos_body: 'Here are some pictures and videos from past events and retreats!',
+    photos_body: 'Here are some pictures and videos from past events and retreats! Click the different event headers to view the photos.',
     photos_header: 'Our Photos',
     photos: {
         "2019-2020 Events": '2019-20-events',
