@@ -173,7 +173,7 @@ var events = {
             title: "Fall Large Group",
             url: "https://www.facebook.com/events/762933597603767"
         },
-        "FA2020 Freshman Small Group": {
+        "FA2020 Freshman Small Group 1": {
             allDay: false,
             start: "2020-10-06T20:00:00",
             title: "Fall Freshman SG",
@@ -185,7 +185,7 @@ var events = {
             title: "Fall Large Group",
             url: ""
         },
-        "FA2020 Freshman Small Group": {
+        "FA2020 Freshman Small Group 2": {
             allDay: false,
             start: "2020-10-13T20:00:00",
             title: "Fall Freshman SG",
@@ -197,7 +197,7 @@ var events = {
             title: "Fall Large Group",
             url: ""
         },
-        "FA2020 Freshman Small Group": {
+        "FA2020 Freshman Small Group 3": {
             allDay: false,
             start: "2020-10-20T20:00:00",
             title: "Fall Freshman SG",
@@ -209,7 +209,7 @@ var events = {
             title: "Fall Large Group",
             url: ""
         },
-        "FA2020 Freshman Small Group": {
+        "FA2020 Freshman Small Group 4": {
             allDay: false,
             start: "2020-10-27T20:00:00",
             title: "Fall Freshman SG",
