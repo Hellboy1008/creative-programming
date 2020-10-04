@@ -66,7 +66,7 @@ var events_text = {
                     "Where": "Cancelled due to Covid-19",
                     "Contact Person": ""
                 },
-                image: "images/Schedule/Campus_EV.jfif"
+                image: "images/Schedule/Campus_EV.jpg"
             },
             massive_lunch: {
                 title: "Massive Lunch",
