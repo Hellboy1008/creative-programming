@@ -179,6 +179,18 @@ var events = {
             title: "Fall Freshman SG",
             url: ""
         },
+        "FA2020 Women's Small Group 1": {
+            allDay: false,
+            start: "2020-10-07T20:00:00",
+            title: "Fall Women's SG",
+            url: ""
+        },
+        "FA2020 Men's Small Group 1": {
+            allDay: false,
+            start: "2020-10-08T20:00:00",
+            title: "Fall Men's SG",
+            url: ""
+        },
         "FA2020 LG 2": {
             allDay: false,
             start: "2020-10-12T20:00:00",
@@ -189,6 +201,18 @@ var events = {
             allDay: false,
             start: "2020-10-13T20:00:00",
             title: "Fall Freshman SG",
+            url: ""
+        },
+        "FA2020 Women's Small Group 2": {
+            allDay: false,
+            start: "2020-10-14T20:00:00",
+            title: "Fall Women's SG",
+            url: ""
+        },
+        "FA2020 Men's Small Group 2": {
+            allDay: false,
+            start: "2020-10-15T20:00:00",
+            title: "Fall Men's SG",
             url: ""
         },
         "FA2020 LG 3": {
@@ -203,6 +227,18 @@ var events = {
             title: "Fall Freshman SG",
             url: ""
         },
+        "FA2020 Women's Small Group 3": {
+            allDay: false,
+            start: "2020-10-21T20:00:00",
+            title: "Fall Women's SG",
+            url: ""
+        },
+        "FA2020 Men's Small Group 3": {
+            allDay: false,
+            start: "2020-10-22T20:00:00",
+            title: "Fall Men's SG",
+            url: ""
+        },
         "FA2020 LG 4": {
             allDay: false,
             start: "2020-10-26T20:00:00",
@@ -213,6 +249,18 @@ var events = {
             allDay: false,
             start: "2020-10-27T20:00:00",
             title: "Fall Freshman SG",
+            url: ""
+        },
+        "FA2020 Women's Small Group 4": {
+            allDay: false,
+            start: "2020-10-28T20:00:00",
+            title: "Fall Women's SG",
+            url: ""
+        },
+        "FA2020 Men's Small Group 4": {
+            allDay: false,
+            start: "2020-10-29T20:00:00",
+            title: "Fall Men's SG",
             url: ""
         },
     }
