@@ -36,6 +36,20 @@ var churches_text = {
                 'English Service': 'Sundays 9:30AM'
             }
         },
+        Hope: {
+            title: 'Hope Presbyterian Church',
+            contacts: {
+                'Contact Person': 'Dorothy Tsai (djtsai@ucsd.edu)'
+            },
+            details: {
+                'Website': 'https://www.hopepcsd.org/',
+                'Address': '10810 Parkdale Avenue, San Diego, CA 92126',
+                'Email Address': 'hopepresbyteriansd@gmail.com'
+            },
+            services: {
+                'English Service': 'Sundays 10:00AM'
+            }
+        },
         Kairos: {
             title: 'Kairos Christian Church',
             contacts: {
