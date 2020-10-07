@@ -598,19 +598,16 @@ i.fas.fa-bars {
 
 @media screen and (max-width: 768px) {
     /* Navigation bar */
-    .navbar-title {
-        font-family: "Gloria Hallelujah";
-        height: 75px;
-        font-weight: 500;
-        font-size: 25px;
-        float: left;
-        margin: 0px;
-        display: flex;
-        align-items: center;
-        padding-left: 15px;
+    .navbar-inverse .navbar-collapse,
+    .navbar-inverse .navbar-form {
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+        background-color: white;
+    }
+    .navbar-wrapper {
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
     }
     .navbar.navbar-inverse.navbar-static-top {
-        display: flex;
+        display: block;
     }
     /* Contacts page */
     .column {
