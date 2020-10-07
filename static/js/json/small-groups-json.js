@@ -35,10 +35,10 @@ var sg_text = {
             title: 'Freshman Small Group',
             details: {
                 'When': 'Tuesdays 8pm',
-                'Zoom Meeting ID': 'TBD',
+                'Zoom Meeting ID': '937-6687-0241',
                 'Leaders': 'Elizabeth Tov (415) 994-6556 & Tin-Trung Pham (714) 251-3407'
             },
-            focus: 'Focus for fall quarter:',
+            focus: 'Focus for fall quarter: Self/Identity',
             image: 'images/Small_Groups/Freshman_SG.jpg'
         },
         'mens_sg': {
