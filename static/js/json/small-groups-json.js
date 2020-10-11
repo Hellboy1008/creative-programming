@@ -45,10 +45,10 @@ var sg_text = {
             title: "Men's Small Group",
             details: {
                 'When': 'Thursdays 8pm',
-                'Zoom Meeting ID': 'TBD',
+                'Zoom Meeting ID': '958-5281-7592',
                 'Leaders': 'Thomas Tang (626) 782-3104 & Joey Truong (415) 713-9218'
             },
-            focus: 'Focus for fall quarter:',
+            focus: 'Focus for fall quarter: Our personal relationship with God',
             image: 'images/Small_Groups/Mens_SG.jpg'
         },
         'womens_sg': {
