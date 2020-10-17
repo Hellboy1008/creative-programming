@@ -82,9 +82,9 @@ var events_text = {
                 title: "Prayer Meeting",
                 description: "Pray over the people of AACF, the campus, and the world together!",
                 details: {
-                    "When": "TBD",
-                    "Zoom Meeting ID": "TBD",
-                    "Contact Person": ""
+                    "When": "Friday October 23, 2020 2-3pm",
+                    "Zoom Meeting ID": "963-2868-7498",
+                    "Contact Person": "Nathan Pun (626) 610-6178"
                 },
                 image: "images/Schedule/Prayer_Meeting.jpg"
             }
@@ -237,6 +237,12 @@ var events = {
             allDay: false,
             start: "2020-10-22T20:00:00",
             title: "Fall Men's SG",
+            url: ""
+        },
+        "FA2020 Week 3 Prayer Meeting": {
+            allDay: false,
+            start: "2020-10-23T14:00:00",
+            title: "Prayer Meeting",
             url: ""
         },
         "FA2020 LG 4": {
