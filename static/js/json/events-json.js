@@ -219,7 +219,7 @@ var events = {
             allDay: false,
             start: "2020-10-19T20:00:00",
             title: "Fall Large Group",
-            url: ""
+            url: "https://www.facebook.com/events/397874061392402/"
         },
         "FA2020 Freshman Small Group 3": {
             allDay: false,
