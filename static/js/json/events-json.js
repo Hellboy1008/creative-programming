@@ -82,9 +82,9 @@ var events_text = {
                 title: "Prayer Meeting",
                 description: "Pray over the people of AACF, the campus, and the world together!",
                 details: {
-                    "When": "Friday October 23, 2020 2-3pm",
-                    "Zoom Meeting ID": "963-2868-7498",
-                    "Contact Person": "Nathan Pun (626) 610-6178"
+                    "When": "Friday October 30, 2020 3-4pm",
+                    "Zoom Meeting ID": "TBD",
+                    "Contact Person": "Tyler Huang (858) 900-7462"
                 },
                 image: "images/Schedule/Prayer_Meeting.jpg"
             }
@@ -249,7 +249,7 @@ var events = {
             allDay: false,
             start: "2020-10-26T20:00:00",
             title: "Fall Large Group",
-            url: ""
+            url: "https://www.facebook.com/events/677527533179245/"
         },
         "FA2020 Freshman Small Group 4": {
             allDay: false,
@@ -267,6 +267,30 @@ var events = {
             allDay: false,
             start: "2020-10-29T20:00:00",
             title: "Fall Men's SG",
+            url: ""
+        },
+        "FA2020 Week 4 Prayer Meeting": {
+            allDay: false,
+            start: "2020-10-30T15:00:00",
+            title: "Prayer Meeting",
+            url: ""
+        },
+        "Pumpkin Carving and Costume Party": {
+            allDay: false,
+            start: "2020-10-30T20:00:00",
+            title: "Pumpkin Carving Party",
+            url: "https://www.facebook.com/events/358960215221842/"
+        },
+        "FA2020 LG 5": {
+            allDay: false,
+            start: "2020-11-02T20:00:00",
+            title: "Fall Large Group",
+            url: ""
+        },
+        "FA2020 LG 6": {
+            allDay: false,
+            start: "2020-11-09T20:00:00",
+            title: "Fall Large Group",
             url: ""
         },
     }
