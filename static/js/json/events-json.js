@@ -215,6 +215,12 @@ var events = {
             title: "Fall Men's SG",
             url: ""
         },
+        "FA2020 Week 2 Thursday Night Games": {
+            allDay: false,
+            start: "2020-10-15T22:00:00",
+            title: "Thur Night Games",
+            url: ""
+        },
         "FA2020 LG 3": {
             allDay: false,
             start: "2020-10-19T20:00:00",
@@ -237,6 +243,12 @@ var events = {
             allDay: false,
             start: "2020-10-22T20:00:00",
             title: "Fall Men's SG",
+            url: ""
+        },
+        "FA2020 Week 3 Thursday Night Games": {
+            allDay: false,
+            start: "2020-10-22T22:00:00",
+            title: "Thur Night Games",
             url: ""
         },
         "FA2020 Week 3 Prayer Meeting": {
@@ -267,6 +279,12 @@ var events = {
             allDay: false,
             start: "2020-10-29T20:00:00",
             title: "Fall Men's SG",
+            url: ""
+        },
+        "FA2020 Week 4 Thursday Night Games": {
+            allDay: false,
+            start: "2020-10-29T22:00:00",
+            title: "Thur Night Games",
             url: ""
         },
         "FA2020 Week 4 Prayer Meeting": {
