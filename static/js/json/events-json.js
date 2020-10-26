@@ -83,7 +83,7 @@ var events_text = {
                 description: "Pray over the people of AACF, the campus, and the world together!",
                 details: {
                     "When": "Friday October 30, 2020 3-4pm",
-                    "Zoom Meeting ID": "TBD",
+                    "Zoom Meeting ID": "972-885-7916",
                     "Contact Person": "Tyler Huang (858) 900-7462"
                 },
                 image: "images/Schedule/Prayer_Meeting.jpg"
