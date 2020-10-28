@@ -82,7 +82,7 @@ var events_text = {
                 title: "Prayer Meeting",
                 description: "Pray over the people of AACF, the campus, and the world together!",
                 details: {
-                    "When": "Friday October 30, 2020 3-4pm",
+                    "When": "Friday October 30, 2020 2-3pm",
                     "Zoom Meeting ID": "972-885-7916",
                     "Contact Person": "Tyler Huang (858) 900-7462"
                 },
@@ -289,7 +289,7 @@ var events = {
         },
         "FA2020 Week 4 Prayer Meeting": {
             allDay: false,
-            start: "2020-10-30T15:00:00",
+            start: "2020-10-30T14:00:00",
             title: "Prayer Meeting",
             url: ""
         },
