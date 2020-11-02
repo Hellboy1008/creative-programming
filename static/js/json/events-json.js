@@ -314,7 +314,7 @@ var events = {
         "FA2020 Week 5 Joint SG 1": {
             allDay: false,
             start: "2020-11-04T20:00:00",
-            title: "Joint SG",
+            title: "Fall Joint SG",
             url: ""
         },
         "FA2020 Week 5 Study Party 2": {
@@ -326,7 +326,13 @@ var events = {
         "FA2020 Week 5 Joint SG 2": {
             allDay: false,
             start: "2020-11-05T20:00:00",
-            title: "Joint SG",
+            title: "Fall Joint SG",
+            url: ""
+        },
+        "FA2020 Week 5 Thursday Night Games": {
+            allDay: false,
+            start: "2020-11-05T22:00:00",
+            title: "Thur Night Games",
             url: ""
         },
         "FA2020 Week 5 Prayer Meeting": {
