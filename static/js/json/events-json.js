@@ -305,19 +305,13 @@ var events = {
             title: "Fall Large Group",
             url: "https://www.facebook.com/events/2679908995594004"
         },
-        "FA2020 Week 5 Study Party 1": {
-            allDay: false,
-            start: "2020-11-04T15:00:00",
-            title: "Study Party",
-            url: ""
-        },
         "FA2020 Week 5 Joint SG 1": {
             allDay: false,
             start: "2020-11-04T20:00:00",
             title: "Fall Joint SG",
             url: ""
         },
-        "FA2020 Week 5 Study Party 2": {
+        "FA2020 Week 5 Study Party": {
             allDay: false,
             start: "2020-11-05T15:00:00",
             title: "Study Party",
