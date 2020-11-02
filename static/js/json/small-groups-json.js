@@ -20,24 +20,24 @@ var sg_text = {
             image: ''
         },
         */
-         'joint_sg 1': {
+         'joint_sg_1': {
             title: 'Joint Small Group 1',
             details: {
                 'When': 'Nov 4, 2020 8pm',
                 'Zoom Meeting ID': '619-279-5467',
                 'Leaders': 'Ashley Chen & Joey Truong'
             },
-            focus: 'Love within the family',
+            focus: 'Topic: Love within the family',
             image: 'images/Small_Groups/Winter_Retreat.jpg'
         },
-        'joint_sg 2': {
+        'joint_sg_2': {
             title: 'Joint Small Group 2',
             details: {
                 'When': 'Nov 5, 2020 8pm',
                 'Zoom Meeting ID': '619-279-5467',
-                'Leaders': 'Luann Huang and James Ramos'
+                'Leaders': 'Luann Huang & James Ramos'
             },
-            focus: 'Love within the family',
+            focus: 'Topic: Love within the family',
             image: 'images/Small_Groups/Bro_App.jpg'
         }
         /**
