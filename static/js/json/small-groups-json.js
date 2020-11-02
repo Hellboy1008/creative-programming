@@ -9,7 +9,7 @@ var sg_text = {
     small_group_header: 'Small Groups',
     small_groups: {
         /** Archived Small Groups 
-         * 'basics_sg': {
+         'basics_sg': {
             title: 'Basics Small Group',
             details: {
                 'When': 'TBD',
@@ -18,19 +18,29 @@ var sg_text = {
             },
             focus: 'Focus for fall quarter:',
             image: ''
-        }
-         *
-         * 'joint_sg': {
-            title: 'Joint Small Group',
+        },
+        */
+         'joint_sg 1': {
+            title: 'Joint Small Group 1',
             details: {
-                'When': 'TBD',
-                'Where': 'TBD',
-                'Leaders': ''
+                'When': 'Nov 4, 2020 8pm',
+                'Zoom Meeting ID': '619-279-5467',
+                'Leaders': 'Ashley Chen & Joey Truong'
             },
-            focus: 'whatever the topic will be',
-            image: 'can be a group photo'
+            focus: 'Love within the family',
+            image: 'images/Small_Groups/Winter_Retreat.jpg'
+        },
+        'joint_sg 2': {
+            title: 'Joint Small Group 2',
+            details: {
+                'When': 'Nov 5, 2020 8pm',
+                'Zoom Meeting ID': '619-279-5467',
+                'Leaders': 'Luann Huang and James Ramos'
+            },
+            focus: 'Love within the family',
+            image: 'images/Small_Groups/Bro_App.jpg'
         }
-         */
+        /**
         'freshman_sg': {
             title: 'Freshman Small Group',
             details: {
@@ -61,6 +71,7 @@ var sg_text = {
             focus: 'Focus for fall quarter: Proactively dying to our earthly self',
             image: 'images/Small_Groups/Womens_SG.jpg'
         }
+        */
     }
 }
 
