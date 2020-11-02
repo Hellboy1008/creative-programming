@@ -20,7 +20,7 @@ var sg_text = {
             image: ''
         },
         */
-         'joint_sg_1': {
+        'joint_sg_1': {
             title: 'Joint Small Group 1',
             details: {
                 'When': 'Nov 4, 2020 8pm',
