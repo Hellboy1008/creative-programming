@@ -24,7 +24,7 @@ var sg_text = {
             title: 'Joint Small Group 1',
             details: {
                 'When': 'Nov 4, 2020 8pm',
-                'Zoom Meeting ID': '619-279-5467',
+                'Zoom Meeting ID': '965-0766-6757',
                 'Leaders': 'Ashley Chen & Joey Truong'
             },
             focus: 'Topic: Love within the family',
@@ -34,7 +34,7 @@ var sg_text = {
             title: 'Joint Small Group 2',
             details: {
                 'When': 'Nov 5, 2020 8pm',
-                'Zoom Meeting ID': '619-279-5467',
+                'Zoom Meeting ID': '933-5774-2626',
                 'Leaders': 'Luann Huang & James Ramos'
             },
             focus: 'Topic: Love within the family',
