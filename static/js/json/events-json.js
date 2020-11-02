@@ -82,9 +82,9 @@ var events_text = {
                 title: "Prayer Meeting",
                 description: "Pray over the people of AACF, the campus, and the world together!",
                 details: {
-                    "When": "Friday October 30, 2020 2-3pm",
-                    "Zoom Meeting ID": "972-885-7916",
-                    "Contact Person": "Tyler Huang (858) 900-7462"
+                    "When": "Friday November 6, 2020 2-3pm",
+                    "Zoom Meeting ID": "619-279-5467",
+                    "Contact Person": "Kwok Wong (415) 608-1014"
                 },
                 image: "images/Schedule/Prayer_Meeting.jpg"
             }
@@ -303,6 +303,36 @@ var events = {
             allDay: false,
             start: "2020-11-02T20:00:00",
             title: "Fall Large Group",
+            url: "https://www.facebook.com/events/2679908995594004"
+        },
+        "FA2020 Week 5 Study Party 1": {
+            allDay: false,
+            start: "2020-11-04T15:00:00",
+            title: "Study Party",
+            url: ""
+        },
+        "FA2020 Week 5 Joint SG 1": {
+            allDay: false,
+            start: "2020-11-04T20:00:00",
+            title: "Joint SG",
+            url: ""
+        },
+        "FA2020 Week 5 Study Party 2": {
+            allDay: false,
+            start: "2020-11-05T15:00:00",
+            title: "Study Party",
+            url: ""
+        },
+        "FA2020 Week 5 Joint SG 2": {
+            allDay: false,
+            start: "2020-11-05T20:00:00",
+            title: "Joint SG",
+            url: ""
+        },
+        "FA2020 Week 5 Prayer Meeting": {
+            allDay: false,
+            start: "2020-11-06T14:00:00",
+            title: "Prayer Meeting",
             url: ""
         },
         "FA2020 LG 6": {
