@@ -15,6 +15,9 @@ $(document).ready(function() {
     // json for welcome image
     $('#welcome_image').css('background-image', 'url(' + index_text["welcome_image"] + ')');
 
+    // json for group photo
+    $('#group_photo').attr('src', index_text["group_photo"]);
+
     // json for other text
     for (id in index_text) {
         if (id != 'body_color' && id != 'header_color' && id != 'welcome_image') {
@@ -23,12 +26,11 @@ $(document).ready(function() {
     }
 
     // json for footer
-    for (media in footer) {
+    for (media in social_media) {
         if (media == 'aacf_email') {
-            $('#' + media).attr('href', 'mailto:' + footer[media]);
+            $('#' + media).attr('href', 'mailto:' + social_media[media]);
         } else {
-            $('#' + media).attr('href', footer[media]);
+            $('#' + media).attr('href', social_media[media]);
         }
     }
-
 });

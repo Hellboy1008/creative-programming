@@ -5,14 +5,14 @@
 }
 
 @font-face {
-    font-family: "Gloria Hallelujah";
-    src: url(../fonts/GloriaHallelujah-Regular.ttf);
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-VariableFont_wght.ttf);
     font-weight: 1 999;
 }
 
 body {
     color: #5a5a5a;
-    background-color: #f2f0eb;
+    background-color: #f3fbfe;
 }
 
 hr {
@@ -35,24 +35,34 @@ b {
 
 /* Navigation bar */
 
-.navbar-logo {
-    max-width: 60px;
-    float: left;
-    margin-top: 8.52px;
-    margin-left: 5px;
-}
-
 .navbar-title {
-    font-family: "Gloria Hallelujah";
+    font-family: "Raleway";
     height: 75px;
     color: #1b578a;
-    font-weight: 500;
-    font-size: 25px;
-    float: left;
-    margin: 0px;
+    font-weight: 600;
+    font-size: 32px;
     margin-left: 15px;
     display: flex;
     align-items: center;
+    margin-top: 32px;
+    margin-right: 150px;
+}
+
+.navbar-title-link {
+    text-decoration: none !important;
+}
+
+.navbar-social-media {
+    position: absolute;
+    left: 1227px;
+    bottom: 50px;
+    z-index: 2;
+}
+
+.navbar-social-media>a {
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none !important;
 }
 
 .navbar-toggle {
@@ -88,14 +98,15 @@ i.fas.fa-bars {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    font-size: 13px;
-    font-weight: 400;
-    padding-right: 10px;
-    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 15px;
+    padding-left: 15px;
     text-transform: uppercase;
     color: black;
     letter-spacing: .2px;
     text-align: center;
+    top: 15px;
 }
 
 .navbar {
@@ -113,15 +124,17 @@ i.fas.fa-bars {
 .navbar-inverse .navbar-form {
     border: transparent;
     background-color: transparent;
+    margin-left: 300px;
+    position: relative;
+    z-index: 1;
 }
 
 .navbar-wrapper {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
-    background-color: white;
+    background-color: transparent;
     font-family: "Work Sans";
-    height: 75px;
-    position: fixed;
-    top: 0px;
+    height: 90px;
+    position: absolute;
+    top: 20px;
     right: 0px;
     left: 0px;
     z-index: 20;
@@ -140,26 +153,6 @@ i.fas.fa-bars {
 }
 
 
-/* Footer */
-
-.footer {
-    box-shadow: 0px -0.5px 0px rgba(0, 0, 0, 0.3);
-    display: flex;
-    align-items: center;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.footer-container>a {
-    font-size: 30px;
-    padding: 15px;
-}
-
-
 /* Home page */
 
 .site-overlay {
@@ -173,10 +166,20 @@ i.fas.fa-bars {
 }
 
 .welcome-screen {
-    /*background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/Front_Page/Brothers_2020.jpg);*/
     height: 100vh;
     min-height: 700px;
     background-size: cover;
+}
+
+.welcome-text {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+    position: absolute;
+    top: 520px;
+    width: 390px;
+    left: 180px;
 }
 
 .aos-init>a {
@@ -191,7 +194,7 @@ i.fas.fa-bars {
 
 .scroll-down {
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     left: 50%;
     text-align: center;
     -webkit-transform: translateX(-50%);
@@ -215,44 +218,122 @@ i.fas.fa-bars {
 
 #about-us {
     margin-top: 75px;
+    margin-bottom: 50px;
 }
 
 .about-header {
-    font-family: helvetica neue;
-    font-size: 20px;
-    line-height: 1em;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
     color: #1b578a;
+    text-align: center;
 }
 
 .about-body {
-    font-family: "Work Sans";
-    margin-top: 25px;
-    margin-bottom: 25px;
+    font-family: "Raleway";
+    font-weight: 600;
     font-size: 16px;
-    line-height: 1.5em;
-    letter-spacing: .02em;
-    font-weight: 300;
+    line-height: 30px;
+    color: #5D727E;
+    text-align: center;
+    margin-left: 290px;
+    margin-right: 290px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.desc-container {
+    display: flex;
+}
+
+.group-photo {
+    float: left;
+    width: 40%;
+    margin-left: 80px;
+}
+
+.text-container {
+    float: right;
+}
+
+.aacf-desc,
+.vision-body,
+.mission-body {
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 7%;
+    line-height: 22.4px;
     color: black;
+    margin-left: 75px;
+    margin-right: 105px;
+    margin-bottom: 25px;
+}
+
+.aacf-desc {
+    margin-top: 35px;
+}
+
+.theme-header {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 28px;
+    color: #155B82;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.theme-verse {
+    font-family: "Raleway";
+    font-weight: 600;
+    font-size: 16px;
+    color: #5D727E;
+    text-align: center;
+}
+
+.theme-verse-source {
+    font-family: "Raleway";
+    font-weight: 600;
+    font-size: 16px;
+    color: #5D727E;
+    text-align: center;
 }
 
 
 /* Events page */
 
 #weekly-schedule {
-    margin-top: 100px;
+    margin-top: 90px;
 }
 
-.schedule-header,
 .event-header {
-    font-family: helvetica neue;
-    color: #7eccbc;
-    margin-top: 50px;
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
+    color: #1b578a;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.event-general-desc {
+    font-family: "Raleway";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5D727E;
+    text-align: center;
+    margin-left: 290px;
+    margin-right: 290px;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 #calendar {
     margin-top: 30px;
+    width: 90%;
+    margin: auto;
 }
 
 .fc {
@@ -268,35 +349,34 @@ i.fas.fa-bars {
     font-family: helvetica neue;
 }
 
-.event-general-desc {
-    font-family: "Work Sans";
-    font-size: 16px;
-    line-height: 1.5em;
-    letter-spacing: .02em;
-    font-weight: 300;
-    color: black;
+.fc-day-grid-event>.fc-content {
+    white-space: normal !important;
+    overflow: hidden;
+}
+
+#event-descriptions {
+    margin-top: 100px;
 }
 
 .event {
     display: flex;
     width: 100%;
+    margin-bottom: 100px;
 }
 
 .event-info {
     float: left;
     width: 50%;
-    font-family: "Work Sans";
+    margin-left: 60px;
 }
 
 .event-title {
-    font-family: helvetica neue;
-    color: #1b578a;
-    font-size: 20px;
-    line-height: 1em;
-    text-transform: none;
-    letter-spacing: 0px;
-    font-weight: 500;
-    font-style: normal;
+    font-family: "Raleway";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #307BA6;
+    ;
 }
 
 .event-desc {
@@ -305,19 +385,18 @@ i.fas.fa-bars {
 }
 
 .event-info>p {
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 400;
+    color: #5F687B;
     margin-top: 25px;
     margin-bottom: 25px;
-    font-size: 16px;
-    line-height: 1.5em;
-    letter-spacing: .02em;
-    font-weight: 300;
-    font-style: normal;
-    color: black;
 }
 
 .event-image {
     float: right;
-    width: 400px;
+    width: 500px;
     height: auto;
     margin: auto;
     padding: 3px;
