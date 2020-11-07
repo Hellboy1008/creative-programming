@@ -29,11 +29,11 @@ $(document).ready(function() {
     }
 
     // json for footer
-    for (media in footer) {
+    for (media in social_media) {
         if (media == 'aacf_email') {
-            $('#' + media).attr('href', 'mailto:' + footer[media]);
+            $('#' + media).attr('href', 'mailto:' + social_media[media]);
         } else {
-            $('#' + media).attr('href', footer[media]);
+            $('#' + media).attr('href', social_media[media]);
         }
     }
 });

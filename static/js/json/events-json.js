@@ -7,8 +7,6 @@
 var events_text = {
     events_body: "Some of our activities do not have the same location or time every week, so we will be updating the calendar as frequently as we can. To receive the latest updates on these activities, join our Facebook page or email list!",
     events_header: "Weekly Events",
-    schedule_body: "Times are displayed in PDT.",
-    schedule_header: "Weekly Schedule",
     weekly_events: {
         large_group: {
             image: "images/Schedule/Large_Group.jpg",
@@ -17,74 +15,73 @@ var events_text = {
                 description: "Gather together with the community for worship and learning!",
                 details: {
                     "When": "Every Monday 8:00pm",
-                    "Zoom Meeting ID": "988-4588-1773"
+                    "Zoom ID": "988-4588-1773"
                 },
                 sermon_link: "https://drive.google.com/drive/folders/1aJXlQDJ9CxGYqr_Q-PBYsN86Ho576IH8?fbclid=IwAR0sS7HvmeMO1f4ebQQmbFuQBhizLWpTCagWLmtZH3nl8ISR0v2_AzW-ysE",
                 sermon_text: "Listen to our Sermons here!"
             },
-            pre_large_group: {
-                title: "Pre-Large Group Dinner",
-                description: "Join us before large group to eat and fellowship!",
-                details: {
-                    "When": "Every Monday 7:00pm",
-                    "Where": "Cancelled due to Covid-19",
-                    "Contact Person": ""
-                },
-            }
+            /** Hide pre-lg until it returns
+                pre_large_group: {
+                    title: "Pre-Large Group Dinner",
+                    description: "Join us before large group to eat and fellowship!",
+                    details: {
+                        "When": "Every Monday 7:00pm",
+                        "Where": "Cancelled due to Covid-19",
+                        "Contact Person": ""
+                    },
+                }
+            */
         },
         other: {
             /** Archived Events 
-             * 
-             *  hope: {
+                hope: {
                     title: "HOPE",
                     description: "HOPE is an intentional time of prayer for each other, our campus, and the world. We will also be doing different types of prayer activities to broaden our horizon on prayer.",
                     details: {
                         "When": "TBD",
-                        "Zoom Meeting ID": "TBD",
+                        "Zoom ID": "TBD",
                         "Contact Person": ""
                     },
                     image: "images/Schedule/HOPE.jpg"
-                }
-             * 
-             *
+                },
+                basketball: {
+                    title: "Basketball",
+                    description: "Come out and play or watch some basketball, or just hang out with one another!",
+                    details: {
+                        "When": "Every Thursday 10:30pm",
+                        "Where": "Cancelled due to Covid-19",
+                        "Contact Person": ""
+                    },
+                    image: "images/Schedule/Basketball.jpg"
+                },
+                campus_ev: {
+                    title: "Campus Evangelism",
+                    description: "Partner up and spread the life-changing message of Jesus Christ to the campus!",
+                    details: {
+                        "When": "Every Friday 10:00am",
+                        "Where": "Cancelled due to Covid-19",
+                        "Contact Person": ""
+                    },
+                    image: "images/Schedule/Campus_EV.jpg"
+                },
+                massive_lunch: {
+                    title: "Massive Lunch",
+                    description: "Looking for some company to eat with? Bring your lunch and come join us!",
+                    details: {
+                        "When": "Every Tuesday 11:00am",
+                        "Where": "Cancelled due to Covid-19",
+                        "Contact Person": ""
+                    },
+                    image: "images/Schedule/Massive_Lunch.png"
+                },
              */
-            basketball: {
-                title: "Basketball",
-                description: "Come out and play or watch some basketball, or just hang out with one another!",
-                details: {
-                    "When": "Every Thursday 10:30pm",
-                    "Where": "Cancelled due to Covid-19",
-                    "Contact Person": ""
-                },
-                image: "images/Schedule/Basketball.jpg"
-            },
-            campus_ev: {
-                title: "Campus Evangelism",
-                description: "Partner up and spread the life-changing message of Jesus Christ to the campus!",
-                details: {
-                    "When": "Every Friday 10:00am",
-                    "Where": "Cancelled due to Covid-19",
-                    "Contact Person": ""
-                },
-                image: "images/Schedule/Campus_EV.jpg"
-            },
-            massive_lunch: {
-                title: "Massive Lunch",
-                description: "Looking for some company to eat with? Bring your lunch and come join us!",
-                details: {
-                    "When": "Every Tuesday 11:00am",
-                    "Where": "Cancelled due to Covid-19",
-                    "Contact Person": ""
-                },
-                image: "images/Schedule/Massive_Lunch.png"
-            },
             prayer_meeting: {
                 title: "Prayer Meeting",
                 description: "Pray over the people of AACF, the campus, and the world together!",
                 details: {
-                    "When": "Friday November 6, 2020 2-3pm",
-                    "Zoom Meeting ID": "619-279-5467",
-                    "Contact Person": "Kwok Wong (415) 608-1014"
+                    "When": "November 6 (Fri) 2-3pm",
+                    "Zoom ID": "619-279-5467",
+                    "Contact Person": "Kwok Wong"
                 },
                 image: "images/Schedule/Prayer_Meeting.jpg"
             }

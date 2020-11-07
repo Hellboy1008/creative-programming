@@ -23,8 +23,8 @@ var sg_text = {
         'joint_sg_1': {
             title: 'Joint Small Group 1',
             details: {
-                'When': 'Nov 4, 2020 8pm',
-                'Zoom Meeting ID': '965-0766-6757',
+                'When': 'November 4 (Wed) 8pm',
+                'Zoom ID': '965-0766-6757',
                 'Leaders': 'Ashley Chen & Joey Truong'
             },
             focus: 'Topic: Love within the family',
@@ -33,8 +33,8 @@ var sg_text = {
         'joint_sg_2': {
             title: 'Joint Small Group 2',
             details: {
-                'When': 'Nov 5, 2020 8pm',
-                'Zoom Meeting ID': '933-5774-2626',
+                'When': 'November 5 (Thu) 8pm',
+                'Zoom ID': '933-5774-2626',
                 'Leaders': 'Luann Huang & James Ramos'
             },
             focus: 'Topic: Love within the family',
@@ -45,8 +45,8 @@ var sg_text = {
             title: 'Freshman Small Group',
             details: {
                 'When': 'Tuesdays 8pm',
-                'Zoom Meeting ID': '937-6687-0241',
-                'Leaders': 'Elizabeth Tov (415) 994-6556 & Tin-Trung Pham (714) 251-3407'
+                'Zoom ID': '937-6687-0241',
+                'Leaders': 'Elizabeth Tov & Tin-Trung Pham'
             },
             focus: 'Focus for fall quarter: Self/Identity',
             image: 'images/Small_Groups/Freshman_SG.jpg'
@@ -55,8 +55,8 @@ var sg_text = {
             title: "Men's Small Group",
             details: {
                 'When': 'Thursdays 8pm',
-                'Zoom Meeting ID': '958-5281-7592',
-                'Leaders': 'Thomas Tang (626) 782-3104 & Joey Truong (415) 713-9218'
+                'Zoom ID': '958-5281-7592',
+                'Leaders': 'Thomas Tang & Joey Truong'
             },
             focus: 'Focus for fall quarter: Our personal relationship with God',
             image: 'images/Small_Groups/Mens_SG.jpg'
@@ -65,8 +65,8 @@ var sg_text = {
             title: "Women's Small Group",
             details: {
                 'When': 'Wednesdays 8pm',
-                'Zoom Meeting ID': '960-5718-6580',
-                'Leaders': 'Luann Huang (657) 281-9787 & Dorothy Tsai (djtsai@ucsd.edu)'
+                'Zoom ID': '960-5718-6580',
+                'Leaders': 'Luann Huang & Dorothy Tsai'
             },
             focus: 'Focus for fall quarter: Proactively dying to our earthly self',
             image: 'images/Small_Groups/Womens_SG.jpg'

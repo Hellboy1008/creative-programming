@@ -18,18 +18,17 @@ $(document).ready(function() {
         $(sg_id + '> .sg-info > .sg-focus').text(sg_text.small_groups[sg].focus);
         for (details in sg_text.small_groups[sg].details) {
             $(sg_id + '> .sg-info > .sg-details').append('<b>' + details + ': </b>');
-            $(sg_id + '> .sg-info > .sg-details').append(sg_text.small_groups[sg].details[details].replace('&', '&<br>') + '<br>');
+            $(sg_id + '> .sg-info > .sg-details').append(sg_text.small_groups[sg].details[details] + '<br>');
         }
         $(sg_id + '> .sg-image > img').attr('src', sg_text.small_groups[sg].image);
-        $('#small-group-descriptions').append('<hr>');
     }
 
     // json for footer
-    for (media in footer) {
+    for (media in social_media) {
         if (media == 'aacf_email') {
-            $('#' + media).attr('href', 'mailto:' + footer[media]);
+            $('#' + media).attr('href', 'mailto:' + social_media[media]);
         } else {
-            $('#' + media).attr('href', footer[media]);
+            $('#' + media).attr('href', social_media[media]);
         }
     }
 });

@@ -14,14 +14,13 @@ window.onload = function() {
         photos_div = '<h2 class="album-header" id="' + photos_text.photos[album] + '" onclick="showPhotos(this)">' + album + '</h2>';
         $('#photos').append(photos_div);
     }
-    $('#photos').append('<hr>');
 
     // json for footer
-    for (media in footer) {
+    for (media in social_media) {
         if (media == 'aacf_email') {
-            $('#' + media).attr('href', 'mailto:' + footer[media]);
+            $('#' + media).attr('href', 'mailto:' + social_media[media]);
         } else {
-            $('#' + media).attr('href', footer[media]);
+            $('#' + media).attr('href', social_media[media]);
         }
     }
 
