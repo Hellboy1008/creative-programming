@@ -14,7 +14,7 @@ var index_text = {
     theme_verse: "We love because he first loved us.",
     theme_verse_source: "1 John 4:19 (ESV)",
     vision_body: "Our vision of AACF is to be committed to making disciples by educating and equipping students in biblical foundations, Christian disciplines, and the development of spiritual gifts in order to prepare them for witness and service on the campus, in the local church, in the marketplace, and in world missions.",
-    welcome_image: "images/Front_Page/Welcome_Image.jpg",
+    welcome_image: "images/Front_Page/Welcome_Image.png",
     welcome_text: "Hello! We're AACF at University of California San Diego"
 }
 

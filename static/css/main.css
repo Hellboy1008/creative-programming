@@ -707,10 +707,11 @@ i.fas.fa-bars {
     }
     /* Home page */
     .welcome-screen {
-        background-position-y: 0px;
+        background-position-x: -400px;
     }
     .welcome-text {
-        top: 480px;
+        top: 680px;
+        left: 50px;
     }
     .about-body {
         margin-left: 200px;
@@ -784,11 +785,11 @@ i.fas.fa-bars {
     }
     /* Home page */
     .welcome-screen {
-        background-position-x: -150px;
+        background-position-x: -300px;
     }
     .welcome-text {
-        left: 60px;
-        top: 450px;
+        left: 40px;
+        top: 550px;
     }
     .about-body {
         margin-left: 50px;
@@ -872,12 +873,16 @@ i.fas.fa-bars {
     }
     /* Home page */
     .welcome-screen {
-        background-position-x: -400px;
+        background-position-x: -530px;
     }
     .welcome-text {
-        left: 30px;
-        font-size: 22px;
+        left: 10px;
+        font-size: 20px;
         width: 200px;
+        top: 580px;
+    }
+    .scroll-down {
+        visibility: hidden;
     }
     .about-header {
         font-size: 22px;
@@ -1046,10 +1051,7 @@ i.fas.fa-bars {
     }
     /* Home page */
     .welcome-screen {
-        background-position-x: -500px;
-    }
-    .welcome-text {
-        top: 350px;
+        background-position-x: -560px;
     }
     /* Small Groups page*/
     .sg-info {
@@ -1072,7 +1074,7 @@ i.fas.fa-bars {
     }
     /* Home page */
     .welcome-screen {
-        background-position-x: -510px;
+        background-position-x: -600px;
     }
     /* Events page */
     .fc-toolbar-chunk {
