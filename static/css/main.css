@@ -868,8 +868,7 @@ i.fas.fa-bars {
         top: -3px;
     }
     .navbar-toggle {
-        height: 0px;
-        top: 10px;
+        top: 0px;
     }
     /* Home page */
     .welcome-screen {
@@ -1033,7 +1032,7 @@ i.fas.fa-bars {
         font-size: 14px;
     }
     .column {
-        width: 50%;
+        width: 48%;
     }
 }
 

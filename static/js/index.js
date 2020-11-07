@@ -16,11 +16,13 @@ $(document).ready(function() {
     $('#welcome_image').css('background-image', 'url(' + index_text["welcome_image"] + ')');
 
     // json for group photo
-    $('#group_photo').attr('src', index_text["group_photo"]);
+    if (screen.width > 425) {
+        $('#group_photo').attr('src', index_text["group_photo"]);
+    }
 
     // json for other text
     for (id in index_text) {
-        if (id != 'body_color' && id != 'header_color' && id != 'welcome_image') {
+        if (id != 'body_color' && id != 'header_color' && id != 'welcome_image' && id != 'group_photo') {
             $('#' + id).text(index_text[id]);
         }
     }
