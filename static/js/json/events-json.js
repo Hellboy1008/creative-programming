@@ -79,9 +79,9 @@ var events_text = {
                 title: "Prayer Meeting",
                 description: "Pray over the people of AACF, the campus, and the world together!",
                 details: {
-                    "When": "November 6 (Fri) 2-3pm",
-                    "Zoom ID": "619-279-5467",
-                    "Contact Person": "Kwok Wong"
+                    "When": "November 14 (Sat) 5-6pm",
+                    "Zoom ID": "972-5055-8490",
+                    "Contact Person": "Stephen Lee"
                 },
                 image: "images/Schedule/Prayer_Meeting.jpg"
             }
@@ -336,8 +336,44 @@ var events = {
             allDay: false,
             start: "2020-11-09T20:00:00",
             title: "Fall Large Group",
+            url: "https://www.facebook.com/events/980659692420391"
+        },
+        "FA2020 Freshman Small Group 5": {
+            allDay: false,
+            start: "2020-11-10T20:00:00",
+            title: "Fall Freshman SG",
             url: ""
         },
+        "FA2020 Week 6 Study Party": {
+            allDay: false,
+            start: "2020-11-11T15:00:00",
+            title: "Study Party",
+            url: ""
+        },
+        "FA2020 Women's Small Group 5": {
+            allDay: false,
+            start: "2020-11-11T20:00:00",
+            title: "Fall Women's SG",
+            url: ""
+        },
+        "FA2020 Men's Small Group 5": {
+            allDay: false,
+            start: "2020-11-12T20:00:00",
+            title: "Fall Men's SG",
+            url: ""
+        },
+        "FA2020 Week 6 Thursday Night Games": {
+            allDay: false,
+            start: "2020-11-12T22:00:00",
+            title: "Thur Night Games",
+            url: ""
+        },
+        "FA2020 Week 6 Prayer Meeting": {
+            allDay: false,
+            start: "2020-11-14T17:00:00",
+            title: "Prayer Meeting",
+            url: ""
+        }
     }
 }
 

@@ -9,7 +9,7 @@ var sg_text = {
     small_group_header: 'Small Groups',
     small_groups: {
         /** Archived Small Groups 
-         'basics_sg': {
+        'basics_sg': {
             title: 'Basics Small Group',
             details: {
                 'When': 'TBD',
@@ -19,7 +19,6 @@ var sg_text = {
             focus: 'Focus for fall quarter:',
             image: ''
         },
-        */
         'joint_sg_1': {
             title: 'Joint Small Group 1',
             details: {
@@ -40,7 +39,7 @@ var sg_text = {
             focus: 'Topic: Love within the family',
             image: 'images/Small_Groups/Bro_App.jpg'
         }
-        /**
+        */
         'freshman_sg': {
             title: 'Freshman Small Group',
             details: {
@@ -71,7 +70,6 @@ var sg_text = {
             focus: 'Focus for fall quarter: Proactively dying to our earthly self',
             image: 'images/Small_Groups/Womens_SG.jpg'
         }
-        */
     }
 }
 
