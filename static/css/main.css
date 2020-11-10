@@ -15,11 +15,6 @@ body {
     background-color: #f3fbfe;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 b {
     font-weight: 700;
 }
@@ -244,6 +239,7 @@ i.fas.fa-bars {
     float: left;
     width: 40%;
     margin-left: 80px;
+    height: 400px;
 }
 
 .text-container {
@@ -716,6 +712,9 @@ i.fas.fa-bars {
     .about-body {
         margin-left: 200px;
         margin-right: 200px;
+    }
+    .group-photo {
+        height: 336px;
     }
     .aacf-desc,
     .vision-body,
