@@ -6,7 +6,7 @@
 
 var index_text = {
     aacf_description: "Asian American Christian Fellowship (AACF) is a student-led Christian organization that is committed to sharing the love of Jesus Christ to the campus of UCSD. We welcome people of all cultural, racial, and religious backgrounds and beliefs as we seek to learn more about God and to grow deeper in community with each other.",
-    about_body: "We are a student-lead Christian organization that loves God and hopes to share the hope of Christ with the college community.",
+    about_body: "We are a student-led Christian organization that loves God and hopes to share the hope of Christ with the college community.",
     about_header: "About us",
     group_photo: "images/Front_Page/WI_Retreat_2020.jpg",
     mission_body: "The mission of Asian American Christian Fellowship is to reach into the university and collegiate community, primarily to those who are Asian Pacific Americans, with the life-changing message of Jesus Christ.",
