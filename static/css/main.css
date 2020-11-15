@@ -1007,12 +1007,14 @@ i.fas.fa-bars {
         right: 10px;
         height: 280px;
         width: 350px;
+        z-index: 1;
     }
     .photos-selection {
         margin-top: 0px;
         position: relative;
         bottom: 50px;
         margin-left: 90px;
+        z-index: 2;
     }
     .photos-selector {
         font-size: 10px;
@@ -1079,6 +1081,10 @@ i.fas.fa-bars {
     /* Navbar */
     .navbar-social-media {
         left: 64vw;
+    }
+    /* Home page */
+    .page-banner {
+        background-position-x: -300px;
     }
     /* Events page */
     .event-column {
