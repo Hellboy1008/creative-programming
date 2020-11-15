@@ -1028,6 +1028,10 @@ i.fas.fa-bars {
         position: relative;
         top: 2px;
     }
+    .year-buttons>i {
+        position: relative;
+        right: 5px;
+    }
     /* Contacts page */
     .contacts-desc {
         margin-top: 25px;
@@ -1080,7 +1084,7 @@ i.fas.fa-bars {
 @media screen and (max-width: 376px) {
     /* Navbar */
     .navbar-social-media {
-        left: 64vw;
+        left: 68vw;
     }
     /* Home page */
     .page-banner {
