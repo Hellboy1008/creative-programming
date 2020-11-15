@@ -7,8 +7,9 @@
 var contact_text = {
     contact_body: 'If you would like more info, contact us using our e-mail: aacf.ucsd@aacf.org<br>If you would like to speak with one of our leaders, their info is listed below:',
     contact_header: 'Contact',
-    core_header: 'Our Core Team',
-    sg_leaders_header: 'Our Small Group Leaders',
+    core_header: 'Core Team',
+    page_banner: 'images/Page_Banners/Contacts_Page.png',
+    sg_leaders_header: 'Small Group Leaders',
     leaders: {
         core: {
             Lance: {
@@ -45,7 +46,7 @@ var contact_text = {
             },
             Stephen: {
                 name: 'Stephen Lee',
-                position: "Men's & Administration",
+                position: "Men's & Admin",
                 year: '3rd Year',
                 major: 'Cognitive Science',
                 contact: 'srlee@ucsd.edu',
@@ -89,7 +90,7 @@ var contact_text = {
                 name: 'Luann Huang',
                 position: "Women's SG Leader",
                 year: '4th Year',
-                major: 'Social Psychology & Education',
+                major: 'Social Psych & Education',
                 contact: '(657) 281-9787',
                 image: 'images/Leaders/Luann.jpg'
             },

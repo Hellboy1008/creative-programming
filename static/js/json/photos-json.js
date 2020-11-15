@@ -5,8 +5,36 @@
  */
 
 var photos_text = {
+    page_banner: 'images/Page_Banners/Photos_Page.png',
     photos_body: 'Here are some pictures and videos from past events and retreats! Click the different event headers to view the photos.',
-    photos_header: 'Our Photos',
+    photos_header: 'Photos',
+    photos_text: {
+        'events': {
+            description: "Photos from general events and hangouts we have each year. These events include AACF Basketball Tournament, large groups,  and other smaller hangouts we have throughout the year.",
+            relevant_years: '2013-14, 2014-15, 2015-16, 2016-17, 2017-18, 2018-19, 2019-20',
+            title: 'General Events'
+        },
+        'wi_retreat': {
+            description: "Photos from our winter retreat we have every year. Winter retreat is a time where we travel as a fellowship to a retreat site and spend intentional time to grow together.",
+            relevant_years: '2013-14, 2014-15, 2015-16, 2016-17, 2017-18, 2018-19, 2019-20',
+            title: 'Winter Retreat'
+        },
+        'bro_app': {
+            description: "Photos from our brother's appreciation we have every other year. Brother's appreciation is a time where we celebrate and appreciate the brothers in the fellowship.",
+            relevant_years: '2013-14, 2015-16, 2017-18, 2019-20',
+            title: "Brother's Appreciation"
+        },
+        'sis_app': {
+            description: "Photos from our sister's appreciation we have every other year. Sister's appreciation is a time where we celebrate and appreciate the sisters in the fellowship.",
+            relevant_years: '2014-15, 2015-16, 2016-17, 2018-19',
+            title: "Sister's Appreciation"
+        },
+        'eoy_banquet': {
+            description: "Photos from our end of year banquet we hold every year. End of year banquet is a time where we reflect on what we've learned each year and celebrate the graduating seniors.",
+            relevant_years: '2013-14, 2014-15, 2015-16, 2016-17, 2017-18, 2018-19',
+            title: 'End of Year Banquet'
+        }
+    },
     photos: {
         "2019-2020 Events": '2019-20-events',
         "2019-2020 Brother's Appreciation": '2019-20-bro-app',

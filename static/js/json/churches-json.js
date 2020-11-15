@@ -6,7 +6,7 @@
 
 var churches_text = {
     churches_body: 'These are some of the local churches in San Diego that members of our AACF attend! Click through the tabs below to find more information about them and be sure to check the websites for their online services each week! Since AACF is not affiliated with a church, we highly encourage you to be a part of a church while you are in San Diego!<br><br> If you would like your church to be added onto this list, or if your church information is currently incorrect, please shoot us an e-mail at aacf.ucsd@aacf.org.',
-    churches_header: 'Church Rides',
+    churches_header: 'Churches',
     churches: {
         Agape: {
             title: 'Agape Chinese Alliance Church',
@@ -64,7 +64,8 @@ var churches_text = {
                 'English Service': 'Sundays 10:30AM'
             }
         }
-    }
+    },
+    page_banner: 'images/Page_Banners/Churches_Page.png'
 }
 
 /**

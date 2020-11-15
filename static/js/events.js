@@ -1,91 +1,57 @@
-// event listener for calendar
-document.addEventListener('DOMContentLoaded', function() {
-    var calendarEl = document.getElementById('calendar');
-    var calendar = new FullCalendar.Calendar(calendarEl, {
-        initialView: 'dayGridMonth',
-        eventClick: function(info) {
-            info.jsEvent.preventDefault(); // don't let the browser navigate
-            if (info.event.url) {
-                window.open(info.event.url, '_blank');
-            }
-        },
-        buttonText: {
-            today: 'Today'
-        },
-        eventDisplay: 'block'
-    });
-    calendar.render();
-    if (screen.width < 426) {
-        calendar.setOption('contentHeight', 400);
-        calendar.changeView('listWeek');
-    } else {
-        calendar.setOption('contentHeight', 600);
-    }
-
-
-    // add events to calendar
-    for (aacf_event in events["events"]) {
-        calendar.addEvent(events["events"][aacf_event])
-    }
-
-});
-
 // run these functions when the website is loaded
 $(document).ready(function() {
+    // json for page banner
+    $('#page_banner').css('background-image', 'url(' + events_text["page_banner"] + ')');
+
     // json for header/body text
     for (id in events_text) {
-        if (id != 'weekly_events') {
+        if (id != 'page_banner') {
             $('#' + id).text(events_text[id]);
         }
     }
 
-    // json for large group event
-    /**
-     * If pre_lg returns:
-     * var lg_div = '<div class="event-info"><h1 class="event-title" id="lg_title"></h1><p class="event-desc" id="lg_desc"></p><p class="event-details" id="lg_details"><a target="_blank"></a><\p><h1 class="event-title" id="pre_lg_title"><br></h1><p class="event-desc" id="pre_lg_desc"></p><p class="event-details" id="pre_lg_details"></p></div><div class="event-image"><img></div>';
-     */
-    var lg_div = '<div class="event-info"><h1 class="event-title" id="lg_title"></h1><p class="event-desc" id="lg_desc"></p><p class="event-details" id="lg_details"><a target="_blank"></a></p></div><div class="event-image"><img></div>';
-    var lg_json = events_text.weekly_events.large_group;
-    $('#event-descriptions').append('<div class="event" id="large_group"> </div>');
-    $('#large_group').append(lg_div);
-    $('#large_group > .event-image > img').attr('src', lg_json.image);
-    $('#large_group > .event-info > #lg_title').text(lg_json.large_group.title);
-    $('#large_group > .event-info > #lg_desc').text(lg_json.large_group.description);
-    var details_str = '';
-    for (details in lg_json.large_group.details) {
-        details_str += '<b>' + details + ': </b>';
-        details_str += lg_json.large_group.details[details] + '<br>'
-    }
-    $('#large_group > .event-info > #lg_details').prepend(details_str);
-    $('#large_group > .event-info > #lg_details > a').attr('href', lg_json.large_group.sermon_link);
-    $('#large_group > .event-info > #lg_details > a').text(lg_json.large_group.sermon_text);
-    /** hide until pre-lg comes back
-    $('#large_group > .event-info > #pre_lg_title').append(lg_json.pre_large_group.title);
-    $('#large_group > .event-info > #pre_lg_desc').text(lg_json.pre_large_group.description);
-    for (details in lg_json.pre_large_group.details) {
-        $('#large_group > .event-info > #pre_lg_details').append('<b>' + details + ': </b>');
-        $('#large_group > .event-info > #pre_lg_details').append(lg_json.pre_large_group.details[details] + '<br>');
-    }
-    */
-
-    // json for other events
-    var event_div = '';
-    var event_id = '';
-    var weekly_events_json = events_text.weekly_events.other;
-    for (w_events in weekly_events_json) {
-        event_div = '<div class="event" id="' + w_events + '"><div class="event-info"><h1 class="event-title"></h1><p class="event-desc"></p><p class="event-details"><\p></div><div class="event-image"><img></div></div>';
-        event_id = '#event-descriptions > #' + w_events;
-        $('#event-descriptions').append(event_div);
-        $(event_id + '> .event-info > .event-title').text(weekly_events_json[w_events].title);
-        $(event_id + '> .event-info > .event-desc').text(weekly_events_json[w_events].description);
-        for (details in weekly_events_json[w_events].details) {
-            $(event_id + '> .event-info > .event-details').append('<b>' + details + ': </b>');
-            $(event_id + '> .event-info > .event-details').append(weekly_events_json[w_events].details[details] + '<br>');
+    // json for past and upcoming events
+    var card_div = '';
+    var event_type_id = '';
+    for (event_type in events) {
+        if (event_type == 'past_events') {
+            event_type_id = '#past_events_list';
+        } else {
+            event_type_id = '#upcoming_events_list';
         }
-        $(event_id + '> .event-image > img').attr('src', weekly_events_json[w_events].image);
+        for (aacf_event in events[event_type]) {
+            card_div = '<div class="event-column"><div class="event-card" id="' + aacf_event + '"><img class="event-img"><p class="event-time"></p><p class="event-title"></p><p class="event-description"></p><p class="event-details"></p></div></div>';
+            $(event_type_id).append(card_div);
+            $('#' + aacf_event + '> .event-img').attr("src", events[event_type][aacf_event].image);
+            $('#' + aacf_event + '> .event-time').text(events[event_type][aacf_event].time);
+            $('#' + aacf_event + '> .event-title').text(events[event_type][aacf_event].title);
+            // account for newline for events led by leaders
+            description_text = events[event_type][aacf_event].description;
+            if (description_text.indexOf('<br>') != -1) {
+                $('#' + aacf_event + '> .event-description').text(description_text.substring(0, description_text.indexOf('<br>')));
+                $('#' + aacf_event + '> .event-description').append('<br>' + description_text.substring(description_text.indexOf('<br>') + 4));
+            } else {
+                $('#' + aacf_event + '> .event-description').text(events[event_type][aacf_event].description);
+            }
+            // account for sermon link in large group
+            if (aacf_event == 'large_group') {
+                details_text = events[event_type][aacf_event].details;
+                zoom_details = details_text.substring(0, details_text.indexOf('|') - 1);
+                details_text = details_text.replace('Listen to our Sermons here!', '<a target="_blank" href="' + events[event_type][aacf_event].sermon_link +
+                    '">Listen to our Sermons here!</a>');
+                details_text = details_text.replace(zoom_details, '<a target="_blank" href="https://ucsd.zoom.us/j/' + zoom_details.substring(9).replaceAll('-', '') +
+                    '">' + zoom_details + '</a>');
+                $('#' + aacf_event + '> .event-details').append(details_text);
+            } else if (events[event_type][aacf_event].details != undefined) {
+                zoom_details = events[event_type][aacf_event].details;
+                zoom_div = '<a target="_blank" href="https://ucsd.zoom.us/j/' + zoom_details.substring(9).replaceAll('-', '') +
+                    '">' + zoom_details + '</a>';
+                $('#' + aacf_event + '> .event-details').append(zoom_div);
+            }
+        }
     }
 
-    // json for footer
+    // json for social media
     for (media in social_media) {
         if (media == 'aacf_email') {
             $('#' + media).attr('href', 'mailto:' + social_media[media]);

@@ -1,8 +1,11 @@
 // run these functions when the website is loaded
 $(document).ready(function() {
+    // json for page banner
+    $('#page_banner').css('background-image', 'url(' + churches_text["page_banner"] + ')');
+
     // json for header/body text
     for (id in churches_text) {
-        if (id != 'churches') {
+        if (id != 'churches' && id != 'page_banner') {
             $('#' + id).append(churches_text[id].replace('aacf.ucsd@aacf.org', '<a href="mailto:aacf.ucsd@aacf.org">aacf.ucsd@aacf.org</a>'));
         }
     }
@@ -52,7 +55,7 @@ $(document).ready(function() {
         churches_ind++;
     }
 
-    // json for footer
+    // json for social media
     for (media in social_media) {
         if (media == 'aacf_email') {
             $('#' + media).attr('href', 'mailto:' + social_media[media]);

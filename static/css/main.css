@@ -11,7 +11,6 @@
 }
 
 body {
-    color: #5a5a5a;
     background-color: #f3fbfe;
 }
 
@@ -30,13 +29,13 @@ b {
 .navbar-title {
     font-family: "Raleway";
     height: 75px;
-    color: #1b578a;
+    color: white;
     font-weight: 600;
     font-size: 32px;
     margin-left: 15px;
     display: flex;
     align-items: center;
-    margin-top: 32px;
+    margin-top: 23px;
     margin-right: 150px;
 }
 
@@ -46,16 +45,16 @@ b {
 
 .navbar-social-media {
     position: absolute;
-    left: 81vw;
+    left: 81.5vw;
     bottom: 50px;
-    z-index: 2;
 }
 
 .navbar-social-media>a {
     font-size: 17px;
     padding: 10px;
     text-decoration: none !important;
-    color: black;
+    color: white;
+    font-weight: 400;
 }
 
 .navbar-toggle {
@@ -75,6 +74,7 @@ b {
 
 i.fas.fa-bars {
     font-size: 20px;
+    color: white;
 }
 
 .navbar.navbar-inverse.navbar-static-top {
@@ -86,7 +86,6 @@ i.fas.fa-bars {
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
-    color: #428BCA;
     background-color: transparent;
 }
 
@@ -96,30 +95,26 @@ i.fas.fa-bars {
     padding-right: 15px;
     padding-left: 15px;
     text-transform: uppercase;
-    color: black;
+    color: white;
     letter-spacing: .2px;
     text-align: center;
     top: 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #428BCA;
+    background-color: transparent;
 }
 
 .navbar {
     border: transparent;
 }
 
-.navbar-inverse .navbar-nav>.open>a,
-.navbar-inverse .navbar-nav>.open>a:hover,
-.navbar-inverse .navbar-nav>.open>a:focus {
-    background-color: white;
-    color: #428BCA;
-}
-
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
     border: transparent;
     background-color: transparent;
-    margin-left: 20vw;
-    position: relative;
-    z-index: 1;
+    margin-left: 30vw;
 }
 
 .navbar-wrapper {
@@ -148,91 +143,42 @@ i.fas.fa-bars {
 
 /* Home page */
 
-.site-overlay {
+.page-banner {
     background-size: cover;
-    background-position: center center;
-    height: 100vh;
-    min-height: 700px;
-    width: 100%;
-    position: relative;
-    z-index: -1;
-}
-
-.welcome-screen {
-    height: 100vh;
-    min-height: 700px;
-    background-size: cover;
-}
-
-.welcome-text {
-    font-family: "Raleway";
-    font-weight: 700;
-    font-size: 28px;
-    color: white;
-    position: absolute;
-    top: 520px;
-    width: 390px;
-    left: 180px;
-}
-
-.aos-init>a {
-    text-decoration: none;
-    color: white;
-}
-
-.aos-init>a:hover {
-    text-decoration: none;
-    color: white;
-}
-
-.scroll-down {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
+    height: 400px;
     text-align: center;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-    text-transform: uppercase;
-    font-size: 12px;
-    color: #fff;
-    text-decoration: none;
-}
-
-.scroll-down>span {
-    position: relative;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-    font-size: 13px;
-    display: block;
-    margin-top: 5px;
+    padding: 185.2px 0;
 }
 
 #about-us {
-    margin-top: 75px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.theme-header {
+    font-family: "Raleway";
+    font-weight: 800;
+    font-size: 28px;
+    color: #323E44;
+    margin-left: 24px;
+    margin-bottom: 50px;
+}
+
+.theme-verse {
+    font-family: "Raleway";
+    font-weight: 800;
+    font-size: 36px;
+    color: #155B82;
+    text-align: center;
     margin-bottom: 50px;
 }
 
 .about-header {
     font-family: "Raleway";
-    font-weight: 700;
+    font-weight: 800;
     font-size: 28px;
-    line-height: 30px;
-    color: #1b578a;
-    text-align: center;
-}
-
-.about-body {
-    font-family: "Raleway";
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 30px;
-    color: #5D727E;
-    text-align: center;
-    margin-left: 290px;
-    margin-right: 290px;
-    margin-top: 20px;
+    color: #323E44;
+    margin-left: 24px;
     margin-bottom: 50px;
 }
 
@@ -240,75 +186,40 @@ i.fas.fa-bars {
     display: flex;
 }
 
-.group-photo {
-    float: left;
-    width: 40%;
-    margin-left: 80px;
-    height: 400px;
-}
-
 .text-container {
-    float: right;
+    float: left;
+    margin-left: 24px;
+    width: 47%;
 }
 
 .aacf-desc,
 .vision-body,
 .mission-body {
-    font-family: "Raleway";
-    font-weight: 400;
-    font-size: 13px;
-    letter-spacing: 7%;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 14px;
     line-height: 22.4px;
     color: black;
-    margin-left: 75px;
-    margin-right: 105px;
     margin-bottom: 25px;
 }
 
-.aacf-desc {
-    margin-top: 35px;
-}
-
-.theme-header {
-    font-family: "Raleway";
-    font-weight: 700;
-    font-size: 28px;
-    color: #155B82;
-    margin-top: 40px;
-    text-align: center;
-}
-
-.theme-verse {
-    font-family: "Raleway";
-    font-weight: 600;
-    font-size: 16px;
-    color: #5D727E;
-    text-align: center;
-}
-
-.theme-verse-source {
-    font-family: "Raleway";
-    font-weight: 600;
-    font-size: 16px;
-    color: #5D727E;
-    text-align: center;
+.group-photo {
+    float: right;
+    width: 532px;
+    margin-left: 80px;
+    height: 340px;
 }
 
 
 /* Events page */
 
-#weekly-schedule {
-    margin-top: 90px;
-}
-
 .event-header {
     font-family: "Raleway";
-    font-weight: 700;
+    font-weight: 800;
     font-size: 28px;
     line-height: 30px;
-    color: #1b578a;
-    text-align: center;
-    margin-top: 80px;
+    color: white;
+    margin: 0%;
 }
 
 .event-general-desc {
@@ -316,195 +227,120 @@ i.fas.fa-bars {
     font-weight: 600;
     font-size: 16px;
     line-height: 30px;
-    color: #5D727E;
-    text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 25px;
-    margin-bottom: 50px;
+    color: #323E44;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
-#calendar {
-    margin-top: 30px;
-    width: 90%;
-    margin: auto;
+.event-type-header {
+    font-family: "Raleway";
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 30px;
+    color: #323E44;
+    margin-top: 60px;
+    margin-bottom: 35px;
 }
 
-.fc {
-    font-size: 0.9em !important;
-}
-
-.fc-toolbar-title {
-    font-family: helvetica neue;
-    font-size: 1.5em !important;
-}
-
-.fc-toolbar-chunk {
-    font-family: helvetica neue;
-}
-
-.fc-day-grid-event>.fc-content {
-    white-space: normal !important;
-    overflow: hidden;
-}
-
-#event-descriptions {
-    margin-top: 100px;
-}
-
-.event {
+.event-row {
     display: flex;
-    width: 100%;
-    margin-bottom: 100px;
+    flex-wrap: wrap;
 }
 
-.event-info {
+.event-column {
     float: left;
-    width: 40%;
-    margin-left: 80px;
-    margin-top: auto;
-    margin-bottom: auto;
+    width: 33%;
+    margin-bottom: 60px;
+    padding: 0 20px;
+    display: flex;
+}
+
+.event-card {
+    flex-direction: column;
+}
+
+.event-img {
+    height: 177px;
+    width: 312px;
+    object-fit: cover;
+    border: 0.33px solid #5F687B;
+}
+
+.event-time {
+    margin-top: 12px;
+    font-family: "Raleway";
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 32px;
+    color: #3890C2;
+    margin-bottom: 12px;
 }
 
 .event-title {
     font-family: "Raleway";
-    font-weight: 600;
+    font-weight: 800;
     font-size: 24px;
     line-height: 32px;
-    color: #307BA6;
+    color: #323E44;
+    margin-bottom: 12px;
 }
 
-.event-desc {
-    margin-top: 0px !important;
-}
-
-.event-info>p {
+.event-description {
     font-family: "Open Sans";
-    font-size: 16px;
-    line-height: 22.4px;
-    font-weight: 400;
-    color: #5F687B;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    font-style: normal;
-}
-
-.event-image {
-    float: right;
-    width: 450px;
-    height: auto;
-    margin: auto;
-    padding: 3px;
-}
-
-
-/* Small Groups page*/
-
-#small-group {
-    margin-top: 90px;
-}
-
-.small-group-header {
-    font-family: "Raleway";
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 30px;
-    color: #1b578a;
-    text-align: center;
-    margin-top: 80px;
-}
-
-.small-group-desc {
-    font-family: "Raleway";
     font-weight: 600;
-    font-size: 16px;
-    line-height: 30px;
-    color: #5D727E;
-    text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 25px;
-    margin-bottom: 75px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #323E44;
+    margin-right: 20px;
+    margin-bottom: 27px;
 }
 
-.small-group {
-    display: flex;
-    width: 100%;
-    margin-bottom: 100px;
-}
-
-.sg-info {
-    float: left;
-    width: 40%;
-    margin-left: 80px;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.sg-title {
-    font-family: "Raleway";
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    color: #307BA6;
-}
-
-.sg-focus {
-    margin-top: 0px !important;
-}
-
-.sg-details,
-.sg-focus {
+.event-details {
     font-family: "Open Sans";
-    font-size: 16px;
-    line-height: 22.4px;
-    font-weight: 400;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
     color: #5F687B;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    font-style: normal;
+    margin-right: 20px;
 }
 
-.sg-image {
-    float: right;
-    width: 450px;
-    height: auto;
-    margin: auto;
-    padding: 3px;
+#past_events {
+    margin-bottom: 30px;
+}
+
+#past_events_header {
+    margin-top: 40px;
 }
 
 
 /* Churches page */
 
-#church-rides {
-    margin-top: 90px;
-}
-
-.church-rides-header {
+.churches-header {
     font-family: "Raleway";
-    font-weight: 700;
+    font-weight: 800;
     font-size: 28px;
     line-height: 30px;
-    color: #1b578a;
-    text-align: center;
-    margin-top: 80px;
+    color: white;
+    margin: 0%;
 }
 
-.church-rides-desc {
+.churches-desc {
     font-family: "Raleway";
     font-weight: 600;
     font-size: 16px;
     line-height: 30px;
-    color: #5D727E;
-    text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 25px;
-    margin-bottom: 75px;
+    color: #323E44;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 #churches {
     margin-bottom: 100px;
+    margin-top: 90px;
+    margin-left: 150px;
+    padding-left: 0px;
 }
 
 .church-tab-title {
@@ -537,62 +373,128 @@ i.fas.fa-bars {
 
 /* Photos page */
 
-#photos {
-    margin-top: 90px;
-    margin-bottom: 100px;
-}
-
 .photos-header {
     font-family: "Raleway";
-    font-weight: 700;
+    font-weight: 800;
     font-size: 28px;
     line-height: 30px;
-    color: #1b578a;
-    text-align: center;
-    margin-top: 80px;
+    color: white;
+    margin: 0%;
 }
 
-.photos-header-desc {
+.photos-desc {
     font-family: "Raleway";
     font-weight: 600;
     font-size: 16px;
     line-height: 30px;
-    color: #5D727E;
-    text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 25px;
-    margin-bottom: 75px;
+    color: #323E44;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
-.album-header {
-    font-family: "Work Sans";
-    margin-top: 50px;
-    font-size: 20px;
-    margin-bottom: 20px;
+#photos {
+    margin-bottom: 30px;
+    margin-top: 70px;
+    margin-left: 150px;
+    padding-left: 0px;
+}
+
+.photo-section {
+    margin-bottom: 70px;
+}
+
+.photos-row {
+    display: flex;
+}
+
+.photos-column {
+    float: left;
+    width: 33%;
+}
+
+.photos-text {
+    margin-right: 40px;
+}
+
+.photos-type-title {
+    font-family: "Raleway";
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 30px;
+    color: black;
+}
+
+.photos-type-desc {
+    font-family: "Raleway";
     font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    color: black;
+    margin-top: 50px;
+    margin-right: 40px;
 }
 
 .galleria {
-    height: 400px;
-    width: 500px;
+    height: 300px;
+    width: 375px;
+    margin-right: 50px;
+}
+
+.galleria-theme-classic {
+    background: #f3fbfe !important;
+}
+
+.galleria-image {
+    background-color: black;
+}
+
+.photos-selection {
+    margin-top: 70px;
+    width: 150px;
+    height: 45px;
+}
+
+.photos-selector {
+    width: 150px;
+    height: 45px;
+    font-family: "Raleway";
+    font-size: 14px;
+    font-weight: 500;
+    color: #F4FBFF;
+    background-color: #5F687B;
+    text-align-last: center;
+}
+
+.photos-selector>option {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.year-buttons {
+    margin-top: 25px;
+    margin-left: 57.5px;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    background-color: #3890C2;
+    border: none;
+}
+
+.year-buttons>i {
+    color: white;
 }
 
 
 /* Contacts page */
 
-#contacts {
-    margin-top: 90px;
-}
-
 .contacts-header {
     font-family: "Raleway";
-    font-weight: 700;
+    font-weight: 800;
     font-size: 28px;
     line-height: 30px;
-    color: #1b578a;
-    text-align: center;
-    margin-top: 80px;
+    color: white;
+    margin: 0%;
 }
 
 .contacts-desc {
@@ -600,99 +502,91 @@ i.fas.fa-bars {
     font-weight: 600;
     font-size: 16px;
     line-height: 30px;
-    color: #5D727E;
-    text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 25px;
-    margin-bottom: 75px;
+    color: #323E44;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#core-team,
+#sg-leaders {
+    margin-top: 50px;
+    margin-left: 150px;
+    padding-left: 0px;
 }
 
 .core-team-header,
 .sg-leaders-header {
-    font-family: "Work Sans";
-    font-size: 24px;
-    margin-bottom: 40px;
-    color: black;
-    font-weight: 500;
+    font-family: "Raleway";
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 30px;
+    color: #323E44;
+    margin-bottom: 35px;
 }
 
-.sg-leaders-header {
-    margin-top: 50px;
-}
-
-.row {
+.contact-row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -5px;
+    margin-left: 0px;
 }
 
-.column {
+.contact-column {
     float: left;
-    width: 20%;
-    margin-bottom: 16px;
-    padding: 0 8px;
+    width: 25%;
+    margin-bottom: 60px;
+    padding: 0 20px;
     display: flex;
 }
 
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+.contact-card {
     flex-direction: column;
 }
 
-.leaders-details {
-    padding: 0 16px;
-}
-
 .leaders-img {
-    width: 100%;
+    height: 250px;
+    width: 250px;
+    border: 0.33px solid #5F687B;
 }
 
-.leaders-details::after,
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
+.leaders-position {
+    margin-top: 12px;
+    font-family: "Raleway";
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 32px;
+    color: #3890C2;
+    margin-bottom: 12px;
 }
 
 .leaders-name {
-    font-family: "Work Sans";
-    font-size: 20px;
-    line-height: 1.5em;
-    letter-spacing: .02em;
-    font-weight: 500;
-    color: black;
+    font-family: "Raleway";
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    color: #323E44;
+    margin-bottom: 12px;
 }
 
-.leaders-position,
-.leaders-info,
-.leaders-contact {
-    font-family: "Work Sans";
-    font-size: 16px;
-    line-height: 1.5em;
-    letter-spacing: .02em;
-    font-weight: 300;
-    color: grey;
-}
-
-.leaders-info,
-.leaders-contact {
-    color: black;
+.leaders-info {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    color: #323E44;
+    margin-right: 20px;
+    margin-bottom: 27px;
 }
 
 #sg-leaders {
-    margin-bottom: 100px;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 
 /* For 1440px laptop display */
 
-@media screen and (max-width: 1440px) {
-    /* Navbar */
-    .navbar-social-media {
-        left: 82.5vw;
-    }
-}
+@media screen and (max-width: 1440px) {}
 
 
 /* For 1024px laptop display */
@@ -704,64 +598,126 @@ i.fas.fa-bars {
         margin-left: 50px;
     }
     .navbar-social-media {
-        left: 84vw;
+        left: 77.5vw;
     }
     /* Home page */
-    .welcome-screen {
-        background-position-x: -400px;
+    .page-banner {
+        background-position-x: -125px;
     }
-    .welcome-text {
-        top: 680px;
-        left: 50px;
+    .theme-header,
+    .about-header {
+        font-size: 26px;
     }
-    .about-body {
-        margin-left: 200px;
-        margin-right: 200px;
-    }
-    .group-photo {
-        height: 336px;
+    .theme-verse {
+        font-size: 34px;
     }
     .aacf-desc,
     .vision-body,
     .mission-body {
         font-size: 12px;
-        margin-bottom: 10px;
-        margin-right: 45px;
-        margin-left: 43px;
     }
-    .aacf-desc {
-        margin-top: 15px;
+    .group-photo {
+        width: 500px;
+        height: 319.5px;
+        margin-left: 40px;
+        margin-top: 30px;
     }
     /* Event page */
+    .event-header,
+    .event-type-header {
+        font-size: 26px;
+    }
     .event-general-desc {
-        margin-left: 50px;
-        margin-right: 50px;
+        font-size: 14px;
+        margin-left: 100px;
+        margin-right: 100px;
     }
-    .event-image {
-        width: 360px;
+    .event-img {
+        height: 140px;
+        width: 246.7px;
     }
-    /* Small Group page */
-    .small-group-desc {
-        margin-left: 50px;
-        margin-right: 50px;
+    .event-time,
+    .event-details {
+        font-size: 12px;
     }
-    .sg-image {
-        width: 360px;
+    .event-title {
+        font-size: 22px;
+    }
+    .event-description {
+        font-size: 11.5px;
     }
     /* Churches page */
-    .church-rides-desc {
-        margin-left: 50px;
-        margin-right: 50px;
+    .churches-header {
+        font-size: 26px;
+    }
+    .churches-desc {
+        font-size: 14px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    #churches {
+        margin-left: 100px;
+    }
+    .nav-tabs {
+        width: 80%;
     }
     /* Photos page */
-    .photos-header-desc {
-        margin-left: 50px;
-        margin-right: 50px;
+    .photos-header {
+        font-size: 26px;
+    }
+    .photos-desc {
+        font-size: 14px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    #photos {
+        margin-left: 100px;
+    }
+    .photos-text {
+        margin-right: 20px;
+    }
+    .photos-type-title {
+        font-size: 26px;
+    }
+    .photos-type-desc {
+        font-size: 12px;
+    }
+    .galleria {
+        height: 270px;
+        width: 337.5px;
+    }
+    .photos-selector {
+        width: 120px;
+    }
+    .year-buttons {
+        margin-left: 43px;
     }
     /* Contact page */
+    .contacts-header {
+        font-size: 26px;
+    }
     .contacts-desc {
-        margin-left: 50px;
-        margin-right: 50px;
+        font-size: 14px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    #core-team,
+    #sg-leaders {
+        margin-left: 100px;
+    }
+    .contact-column {
+        width: 33%;
+    }
+    .leaders-img {
+        height: 200px;
+        width: 200px;
+    }
+    .leaders-name {
+        font-size: 22px;
+    }
+    .leaders-position,
+    .leaders-info {
+        font-size: 12px;
     }
 }
 
@@ -772,76 +728,115 @@ i.fas.fa-bars {
     /* Navbar */
     .navbar-inverse .navbar-collapse,
     .navbar-inverse .navbar-form {
-        margin-left: 0px;
+        margin-left: 110px;
     }
     .navbar-title {
         font-size: 30px;
         margin-right: 0px;
         position: relative;
-        right: 20px;
+        right: -20px;
         margin-top: 38px;
-    }
-    .navbar-inverse .navbar-nav>li>a {
-        font-size: 13px;
     }
     .navbar-social-media {
         left: 80vw;
     }
     /* Home page */
-    .welcome-screen {
-        background-position-x: -300px;
+    .page-banner {
+        background-position-x: -250px;
     }
-    .welcome-text {
-        left: 40px;
-        top: 550px;
+    .theme-header,
+    .about-header {
+        font-size: 20px;
     }
-    .about-body {
-        margin-left: 50px;
-        margin-right: 50px;
+    .theme-verse {
+        font-size: 24px;
+    }
+    .desc-container {
+        display: block;
+    }
+    .text-container {
+        width: 95%;
     }
     .group-photo {
-        margin-left: 40px;
-    }
-    .aacf-desc,
-    .vision-body,
-    .mission-body {
-        font-size: 10px;
-        margin-right: 25px;
-        margin-left: 23px;
+        margin-left: 110px;
+        float: none;
     }
     /* Event page */
     .event-general-desc {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .event-info {
         margin-left: 40px;
+        margin-right: 40px;
     }
-    .event-image {
-        width: 320px;
+    #upcoming_events,
+    #past_events {
+        padding-left: 20px;
     }
-    /* Small Group page */
-    .small-group-desc {
-        margin-left: 20px;
-        margin-right: 20px;
+    .event-time,
+    .event-details {
+        font-size: 11.5px;
     }
-    .sg-info {
-        margin-left: 40px;
+    .event-title {
+        font-size: 17px;
     }
-    .sg-image {
-        width: 320px;
+    .event-description {
+        font-size: 10px;
+        margin-right: 0px;
     }
     /* Churches page */
-    .church-rides-desc {
-        margin-left: 20px;
-        margin-right: 20px;
+    .churches-desc {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    #churches {
+        margin-left: 40px;
     }
     /* Photos page */
-    .photos-header-desc {
-        margin-left: 20px;
-        margin-right: 20px;
+    .photos-desc {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    #photos {
+        margin-left: 40px;
+    }
+    .photos-type-desc {
+        font-size: 10px;
+        margin-top: 25px;
+    }
+    .galleria {
+        height: 240px;
+        width: 300px;
+        margin-right: 30px;
+    }
+    .photos-selection {
+        margin-top: 50px;
+    }
+    .photos-selector {
+        width: 100px;
+        font-size: 12px;
+    }
+    .year-buttons {
+        margin-left: 33px;
     }
     /* Contacts page */
+    .contacts-desc {
+        font-size: 14px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    #core-team,
+    #sg-leaders {
+        margin-left: 40px;
+    }
+    .leaders-img {
+        height: 150px;
+        width: 150px;
+    }
+    .leaders-name {
+        font-size: 20px;
+    }
+    .leaders-position,
+    .leaders-info {
+        font-size: 11px;
+    }
     .column {
         width: 33%;
     }
@@ -854,9 +849,20 @@ i.fas.fa-bars {
     /* Navigation bar */
     .navbar-inverse .navbar-collapse,
     .navbar-inverse .navbar-form {
-        background-color: #f3fbfe;
-        bottom: 40px;
-        height: 270px;
+        background-color: rgb(169, 169, 169, 0.95);
+        height: 220px;
+        position: relative;
+        bottom: 25px;
+        margin-left: 0px;
+    }
+    .navbar-nav {
+        margin: 0px;
+    }
+    .navbar-collapse {
+        box-shadow: none;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+        color: white;
     }
     .navbar.navbar-inverse.navbar-static-top {
         display: block;
@@ -872,176 +878,197 @@ i.fas.fa-bars {
         float: left;
         top: -3px;
     }
-    .navbar-toggle {
-        top: 0px;
-    }
     /* Home page */
-    .welcome-screen {
-        background-position-x: -530px;
+    .page-banner {
+        background-position-x: -275px;
+        height: 300px;
+        padding: 138.9px 0;
     }
-    .welcome-text {
-        left: 10px;
-        font-size: 20px;
-        width: 200px;
-        top: 580px;
+    #about-us {
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
-    .scroll-down {
-        visibility: hidden;
+    .theme-header {
+        margin-left: 10px;
+        margin-bottom: 25px;
+    }
+    .theme-verse {
+        font-size: 14px;
     }
     .about-header {
-        font-size: 22px;
-    }
-    .about-body {
-        font-size: 12px;
         margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
     }
-    .group-photo {
-        overflow: hidden;
-        visibility: hidden;
-        margin-left: 0px;
+    .text-container {
+        margin-left: 10px;
     }
     .aacf-desc,
     .vision-body,
     .mission-body {
-        font-size: 11px;
-        margin-left: 0px;
+        margin-right: 20px;
     }
-    .theme-header {
-        font-size: 22px;
-    }
-    .theme-verse,
-    .theme-verse-source {
-        font-size: 12px;
+    .group-photo {
+        width: 300px;
+        height: 191.7px;
+        margin-left: 10px;
     }
     /* Events page */
-    .event-header {
-        font-size: 22px;
-        margin-top: 30px;
-    }
     .event-general-desc {
+        margin-top: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
         font-size: 12px;
-        margin-left: 10px;
-        margin-right: 10px;
     }
-    #event-descriptions {
+    .event-type-header {
         margin-top: 30px;
     }
-    .event {
-        margin-bottom: 0px;
+    .event-type-header {
+        font-size: 20px;
     }
-    .event-info {
-        margin-left: 20px;
+    .event-column {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .event-time,
+    .event-details {
+        font-size: 11px;
+    }
+    .event-time {
+        margin-top: 6px;
+        margin-bottom: 0px;
     }
     .event-title {
-        font-size: 14px;
+        font-size: 13px;
+        margin-bottom: 6px;
     }
-    .event-desc,
-    .event-info>p {
-        font-size: 10px;
+    .event-description {
+        margin-bottom: 13px;
     }
-    .event-image {
-        width: 180px;
-        margin-left: 20px;
+    #past_events {
+        margin-bottom: 20px;
     }
-    /* Small Groups page*/
-    .small-group-header {
-        font-size: 22px;
-        margin-top: 30px;
-    }
-    .small-group-desc {
-        font-size: 12px;
-        margin-bottom: 30px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .small-group {
-        margin-bottom: 0px;
-    }
-    .sg-info {
-        margin-left: 20px;
-    }
-    .sg-title {
-        font-size: 14px;
-    }
-    .sg-focus,
-    .sg-details {
-        font-size: 10px;
-    }
-    .sg-image {
-        width: 200px;
-        margin-left: 20px;
+    #past_events_header {
+        margin-top: 0px;
     }
     /* Churches page */
-    .church-rides-header {
-        font-size: 22px;
-        margin-top: 30px;
-    }
-    .church-rides-desc {
+    .churches-desc {
+        margin-top: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
         font-size: 12px;
-        margin-bottom: 50px;
-        margin-left: 10px;
-        margin-right: 10px;
     }
     #churches {
-        margin-bottom: 20px;
+        margin-top: 45px;
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+    .nav-tabs {
+        width: 90%;
+    }
+    .tab-content {
+        margin-left: 5px;
+    }
+    .church-tab-title {
+        font-size: 12px;
     }
     .church-title {
         font-size: 14px;
     }
     .church-details {
-        font-size: 13px;
+        font-size: 12px;
     }
     /* Photos page */
-    .photos-header {
-        font-size: 22px;
-        margin-top: 30px;
-    }
-    .photos-header-desc {
+    .photos-desc {
+        margin-top: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
         font-size: 12px;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 10px;
     }
     #photos {
+        margin-top: 35px;
+        margin-left: 20px;
+    }
+    .photos-row {
+        display: block;
+    }
+    .photos-column {
+        width: 100%;
+    }
+    .photos-type-title {
+        font-size: 18px;
+    }
+    .photos-type-desc {
+        margin-top: 12.5px;
         margin-bottom: 20px;
     }
-    .album-header {
-        font-size: 16px;
-    }
     .galleria {
-        height: 300px;
-        width: 375px;
+        margin-right: 0px;
+        position: relative;
+        right: 10px;
+        height: 280px;
+        width: 350px;
+    }
+    .photos-selection {
+        margin-top: 0px;
+        position: relative;
+        bottom: 50px;
+        margin-left: 90px;
+    }
+    .photos-selector {
+        font-size: 10px;
+        width: 90px;
+        height: 30px;
+    }
+    .year-buttons {
+        height: 25px;
+        width: 25px;
+        margin-left: 24px;
+        position: relative;
+        top: 2px;
     }
     /* Contacts page */
-    .contacts-header {
-        font-size: 22px;
-        margin-top: 30px;
-    }
     .contacts-desc {
+        margin-top: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
         font-size: 12px;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 10px;
+    }
+    #core-team,
+    #sg-leaders {
+        margin-left: 20px;
     }
     #sg-leaders {
         margin-bottom: 20px;
     }
+    #core-team {
+        margin-top: 25px;
+    }
     .core-team-header,
     .sg-leaders-header {
         font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .contact-column {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .leaders-position {
+        margin-top: 6px;
+        margin-bottom: 0px;
     }
     .leaders-name {
-        font-size: 16px;
+        font-size: 13px;
+        margin-bottom: 6px;
     }
-    .leaders-position,
-    .leaders-info,
-    .leaders-contact {
-        font-size: 14px;
+    .leaders-info {
+        margin-bottom: 13px;
+        margin-right: 0px;
     }
-    .column {
-        width: 48%;
+    #sg-leaders {
+        margin-top: 0px;
+    }
+    .sg-leaders-header {
+        margin-top: 0px;
     }
 }
 
@@ -1053,18 +1080,36 @@ i.fas.fa-bars {
     .navbar-social-media {
         left: 64vw;
     }
-    /* Home page */
-    .welcome-screen {
-        background-position-x: -560px;
+    /* Events page */
+    .event-column {
+        width: 100%;
     }
-    /* Small Groups page*/
-    .sg-info {
-        margin-left: 10px;
+    .event-time,
+    .event-details {
+        font-size: 12px;
+    }
+    .event-title {
+        font-size: 18px;
+    }
+    .event-description {
+        font-size: 12px;
+        margin-right: 10vw;
+    }
+    .event-details {
+        margin-right: 10vw;
     }
     /* Photos page */
     .galleria {
-        height: 275px;
-        width: 343.75px;
+        height: 264px;
+        width: 330px;
+    }
+    /* Contacts page */
+    .contact-column {
+        padding: 0 10px;
+    }
+    .leaders-img {
+        height: 120px;
+        width: 120px;
     }
 }
 
@@ -1077,16 +1122,15 @@ i.fas.fa-bars {
         left: 58vw;
     }
     /* Home page */
-    .welcome-screen {
-        background-position-x: -600px;
-    }
-    /* Events page */
-    .fc-toolbar-chunk {
-        font-size: 10px;
+    .page-banner {
+        background-position-x: -330px;
     }
     /* Photos page */
     .galleria {
-        height: 240px;
-        width: 300px;
+        height: 220px;
+        width: 275px;
+    }
+    .photos-selection {
+        margin-left: 60px;
     }
 }
