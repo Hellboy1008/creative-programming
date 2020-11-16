@@ -286,6 +286,11 @@ i.fas.fa-bars {
     margin-bottom: 12px;
 }
 
+.event-title>a {
+    text-decoration: none;
+    color: #323E44;
+}
+
 .event-description {
     font-family: "Open Sans";
     font-weight: 600;

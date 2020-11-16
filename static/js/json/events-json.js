@@ -17,12 +17,14 @@ var events = {
         pumpkin_carving: {
             title: "Pumpkin Party",
             description: "Carved pumpkins together and had a fun time of fellowship!",
+            fb_link: 'https://www.facebook.com/events/358960215221842/',
             image: "images/Events/Pumpkin_Party.jpg",
             time: "Halloween Day"
         },
         escape_room: {
             title: "Escape Room",
             description: "Worked together to solve a virtual escape room!",
+            fb_link: 'https://www.facebook.com/events/3275266462570407/',
             image: "images/Events/Escape_Room.jpg",
             time: "Welcome Week Event"
         }
@@ -32,6 +34,7 @@ var events = {
             title: "Large Group",
             description: "Gather together with the community for worship and learning!",
             details: "Zoom ID: 988-4588-1773 | Listen to our Sermons here!",
+            fb_link: 'https://www.facebook.com/events/492703728370396/',
             image: "images/Events/Large_Group.jpg",
             sermon_link: "https://drive.google.com/drive/folders/1aJXlQDJ9CxGYqr_Q-PBYsN86Ho576IH8?fbclid=IwAR0sS7HvmeMO1f4ebQQmbFuQBhizLWpTCagWLmtZH3nl8ISR0v2_AzW-ysE",
             time: "Monday at 8pm"
@@ -40,13 +43,23 @@ var events = {
             title: "Freshman Small Group",
             description: "Focus: Self/Identity<br>Led by Elizabeth Tov & Tin-Trung Pham",
             details: "Zoom ID: 937-6687-0241",
+            fb_link: '',
             image: "images/Events/Freshman_SG.jpg",
             time: "Tuesday at 8pm"
+        },
+        study_party: {
+            title: "Study Party",
+            description: "Come joins us for a fun time of studying and fellowship!",
+            details: "Zoom ID: 619-279-5467",
+            fb_link: '',
+            image: "images/Events/Study_Party.jpg",
+            time: "Wednesday at 3pm"
         },
         womens_small_group: {
             title: "Women's Small Group",
             description: "Focus: Proactively dying to our earthly self<br>Led by Dorothy Tsai & Luann Huang",
             details: "Zoom ID: 960-5718-6580",
+            fb_link: '',
             image: "images/Events/Womens_SG.jpg",
             time: "Wednesday at 8pm"
         },
@@ -54,6 +67,7 @@ var events = {
             title: "Men's Small Group",
             description: "Focus: Our personal relationship with God<br>Led by Joey Truong & Thomas Tang",
             details: "Zoom ID: 958-5281-7592",
+            fb_link: '',
             image: "images/Events/Mens_SG.jpg",
             time: "Thursday at 8pm"
         },
@@ -61,6 +75,7 @@ var events = {
             title: "Game Night",
             description: "Join us in some virtual games :) We play fun interactive games like Among Us!",
             details: "Zoom ID: 467-781-2711",
+            fb_link: '',
             image: "images/Events/Game_Night.jpg",
             time: "Thursday at 10pm"
         },
@@ -68,6 +83,7 @@ var events = {
             title: "Prayer Meeting",
             description: "Come join us and pray together!<br> Led by Jung Yue",
             details: "Zoom ID: 972-5055-8490",
+            fb_link: '',
             image: "images/Events/Prayer_Meeting.jpg",
             time: "Friday at 2pm",
         }

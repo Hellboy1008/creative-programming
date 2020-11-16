@@ -24,7 +24,12 @@ $(document).ready(function() {
             $(event_type_id).append(card_div);
             $('#' + aacf_event + '> .event-img').attr("src", events[event_type][aacf_event].image);
             $('#' + aacf_event + '> .event-time').text(events[event_type][aacf_event].time);
-            $('#' + aacf_event + '> .event-title').text(events[event_type][aacf_event].title);
+            // account for fb event links
+            if (events[event_type][aacf_event].fb_link == '') {
+                $('#' + aacf_event + '> .event-title').text(events[event_type][aacf_event].title);
+            } else {
+                $('#' + aacf_event + '> .event-title').append('<a target="_blank" href="' + events[event_type][aacf_event].fb_link + '">' + events[event_type][aacf_event].title + '</a>');
+            }
             // account for newline for events led by leaders
             description_text = events[event_type][aacf_event].description;
             if (description_text.indexOf('<br>') != -1) {
