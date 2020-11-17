@@ -86,6 +86,14 @@ var events = {
             fb_link: '',
             image: "images/Events/Prayer_Meeting.jpg",
             time: "Friday at 2pm",
+        },
+        womens_cardgiving: {
+            title: "Women's Cardsgiving",
+            description: "Come fellowship with the women and make thanksgiving cards together!",
+            details: "Zoom ID: 997-3429-2020",
+            fb_link: 'https://www.facebook.com/events/302761620812492',
+            image: "images/Events/Womens_Cardgiving.jpg",
+            time: "Sunday at 8pm",
         }
     }
     /** Archived events
