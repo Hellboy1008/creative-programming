@@ -5,7 +5,7 @@
  */
 
 var events_text = {
-    events_body: 'Some of our activities do not have the same location or time every week, so we will be updating the calendar as frequently as we can. To receive the latest updates on these activities, join our Facebook page or email list!',
+    events_body: 'Some of our activities do not have the same location or time every week, so we will be updating the website as frequently as we can. To receive the latest updates on these activities, join our Facebook page or email list!',
     events_header: 'Weekly Events',
     page_banner: 'images/Page_Banners/Events_Page.png',
     past_events_header: 'Past Events',
@@ -89,7 +89,7 @@ var events = {
         },
         womens_cardgiving: {
             title: "Women's Cardsgiving",
-            description: "Come fellowship with the women and make thanksgiving cards together!",
+            description: "Come fellowship with other women and make thanksgiving cards together! (women only)",
             details: "Zoom ID: 997-3429-2020",
             fb_link: 'https://www.facebook.com/events/302761620812492',
             image: "images/Events/Womens_Cardgiving.jpg",
