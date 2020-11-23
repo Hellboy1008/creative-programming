@@ -9,11 +9,18 @@ var events_text = {
     events_header: 'Weekly Events',
     page_banner: 'images/Page_Banners/Events_Page.png',
     past_events_header: 'Past Events',
-    upcoming_events_header: 'Upcoming Events'
+    upcoming_events_header: 'Upcoming Events (Week 8)'
 }
 
 var events = {
     past_events: {
+        womens_cardgiving: {
+            title: "Women's Cardsgiving",
+            description: "Made nice thanksgiving cards together with other women in the fellowship!",
+            fb_link: 'https://www.facebook.com/events/302761620812492',
+            image: "images/Events/Womens_Cardgiving.jpg",
+            time: "November 22",
+        },
         pumpkin_carving: {
             title: "Pumpkin Party",
             description: "Carved pumpkins together and had a fun time of fellowship!",
@@ -34,7 +41,7 @@ var events = {
             title: "Large Group",
             description: "Gather together with the community for worship and learning!",
             details: "Zoom ID: 988-4588-1773 | Listen to our Sermons here!",
-            fb_link: 'https://www.facebook.com/events/492703728370396/',
+            fb_link: 'https://www.facebook.com/events/3378005788988953',
             image: "images/Events/Large_Group.jpg",
             sermon_link: "https://drive.google.com/drive/folders/1aJXlQDJ9CxGYqr_Q-PBYsN86Ho576IH8?fbclid=IwAR0sS7HvmeMO1f4ebQQmbFuQBhizLWpTCagWLmtZH3nl8ISR0v2_AzW-ysE",
             time: "Monday at 8pm"
@@ -47,6 +54,7 @@ var events = {
             image: "images/Events/Freshman_SG.jpg",
             time: "Tuesday at 8pm"
         },
+        /**
         study_party: {
             title: "Study Party",
             description: "Come joins us for a fun time of studying and fellowship!",
@@ -79,21 +87,22 @@ var events = {
             image: "images/Events/Game_Night.jpg",
             time: "Thursday at 10pm"
         },
+        */
         prayer_meeting: {
             title: "Prayer Meeting",
-            description: "Come join us and pray together!<br> Led by Jung Yue",
-            details: "Zoom ID: 972-5055-8490",
+            description: "Come join us and pray together!<br> Led by Emi Okuno",
+            details: "Zoom ID: 961-0323-3992",
             fb_link: '',
             image: "images/Events/Prayer_Meeting.jpg",
-            time: "Friday at 2pm",
+            time: "Wednesday at 2pm",
         },
-        womens_cardgiving: {
-            title: "Women's Cardsgiving",
-            description: "Come fellowship with other women and make thanksgiving cards together! (women only)",
-            details: "Zoom ID: 997-3429-2020",
-            fb_link: 'https://www.facebook.com/events/302761620812492',
-            image: "images/Events/Womens_Cardgiving.jpg",
-            time: "Sunday at 8pm",
+        streaming_party: {
+            title: "Streaming Party",
+            description: "Come watch a show/film/movie with us! There will be a poll on Facebook!",
+            details: "Zoom ID: 619-279-5467",
+            fb_link: '',
+            image: "images/Events/Streaming_Party.jpg",
+            time: "Saturday at 1pm",
         }
     }
     /** Archived events
