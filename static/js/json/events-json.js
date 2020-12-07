@@ -9,7 +9,7 @@ var events_text = {
     events_header: 'Weekly Events',
     page_banner: 'images/Page_Banners/Events_Page.png',
     past_events_header: 'Past Events',
-    upcoming_events_header: 'Upcoming Events (Week 9)'
+    upcoming_events_header: 'Upcoming Events (Week 10)'
 }
 
 var events = {
@@ -41,7 +41,7 @@ var events = {
             title: "Large Group",
             description: "Gather together with the community for worship and learning!",
             details: "Zoom ID: 988-4588-1773 | Listen to our Sermons here!",
-            fb_link: 'https://www.facebook.com/events/395703061577492',
+            fb_link: 'https://www.facebook.com/events/169417724883242',
             image: "images/Events/Large_Group.jpg",
             sermon_link: "https://drive.google.com/drive/folders/1aJXlQDJ9CxGYqr_Q-PBYsN86Ho576IH8?fbclid=IwAR0sS7HvmeMO1f4ebQQmbFuQBhizLWpTCagWLmtZH3nl8ISR0v2_AzW-ysE",
             time: "Monday at 8pm"
@@ -54,13 +54,21 @@ var events = {
             image: "images/Events/Freshman_SG.jpg",
             time: "Tuesday at 8pm"
         },
+        prayer_meeting: {
+            title: "Prayer Meeting",
+            description: "Come join us and pray together!<br> Led by Nathan Pun",
+            details: "Zoom ID: 943-0702-6475",
+            fb_link: '',
+            image: "images/Events/Prayer_Meeting.jpg",
+            time: "Wednesday at 2pm",
+        },
         study_party: {
             title: "Study Party",
             description: "Come joins us for a fun time of studying and fellowship!",
             details: "Zoom ID: 619-279-5467",
             fb_link: '',
             image: "images/Events/Study_Party.jpg",
-            time: "Wednesday at 3pm"
+            time: "Wednesday at 4pm"
         },
         womens_small_group: {
             title: "Women's Small Group",
@@ -70,14 +78,7 @@ var events = {
             image: "images/Events/Womens_SG.jpg",
             time: "Wednesday at 8pm"
         },
-        prayer_meeting: {
-            title: "Prayer Meeting",
-            description: "Come join us and pray together!<br> Led by Lance Mashita",
-            details: "Zoom ID: 920-1440-1648",
-            fb_link: '',
-            image: "images/Events/Prayer_Meeting.jpg",
-            time: "Thursday at 9am",
-        },
+        /*
         mens_small_group: {
             title: "Men's Small Group",
             description: "Focus: Our personal relationship with God<br>Led by Joey Truong & Thomas Tang",
@@ -94,6 +95,7 @@ var events = {
             image: "images/Events/Game_Night.jpg",
             time: "Thursday at 10pm"
         }
+        */
     }
     /** Archived events
         pre_large_group: {
