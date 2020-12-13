@@ -9,7 +9,7 @@ var events_text = {
     events_header: 'Weekly Events',
     page_banner: 'images/Page_Banners/Events_Page.png',
     past_events_header: 'Past Events',
-    upcoming_events_header: 'Upcoming Events (Week 10)'
+    upcoming_events_header: 'Upcoming Events (Winter Break)'
 }
 
 var events = {
@@ -37,6 +37,15 @@ var events = {
         }
     },
     upcoming_events: {
+        christmas_party: {
+            title: "Christmas Party",
+            description: "Come join us for our last event of the year! RSVP on Facebook by Dec 14!",
+            details: "",
+            fb_link: 'https://www.facebook.com/events/366128217787903',
+            image: "images/Events/Christmas_Party.jpg",
+            time: "December 21 at 8pm"
+        }
+        /*
         large_group: {
             title: "Large Group",
             description: "Gather together with the community for worship and learning!",
@@ -78,7 +87,6 @@ var events = {
             image: "images/Events/Womens_SG.jpg",
             time: "Wednesday at 8pm"
         },
-        /*
         mens_small_group: {
             title: "Men's Small Group",
             description: "Focus: Our personal relationship with God<br>Led by Joey Truong & Thomas Tang",
