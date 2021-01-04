@@ -9,11 +9,18 @@ var events_text = {
     events_header: 'Weekly Events',
     page_banner: 'images/Page_Banners/Events_Page.png',
     past_events_header: 'Past Events',
-    upcoming_events_header: 'Upcoming Events (Winter Break)'
+    upcoming_events_header: 'Upcoming Events (Week 1)'
 }
 
 var events = {
     past_events: {
+        christmas_party: {
+            title: "Christmas Party",
+            description: "Played fun games together and ended with a gift exchange!",
+            fb_link: 'https://www.facebook.com/events/366128217787903',
+            image: "images/Events/Christmas_Party.jpg",
+            time: "December 21"
+        },
         womens_cardgiving: {
             title: "Women's Cardsgiving",
             description: "Made nice thanksgiving cards together with other women in the fellowship!",
@@ -37,19 +44,10 @@ var events = {
         }
     },
     upcoming_events: {
-        christmas_party: {
-            title: "Christmas Party",
-            description: "Come join us for our last event of the year! RSVP on Facebook by Dec 14!",
-            details: "",
-            fb_link: 'https://www.facebook.com/events/366128217787903',
-            image: "images/Events/Christmas_Party.jpg",
-            time: "December 21 at 8pm"
-        }
-        /*
         large_group: {
             title: "Large Group",
             description: "Gather together with the community for worship and learning!",
-            details: "Zoom ID: 988-4588-1773 | Listen to our Sermons here!",
+            details: "Zoom ID: 978-9517-5741 | Listen to our Sermons here!",
             fb_link: 'https://www.facebook.com/events/169417724883242',
             image: "images/Events/Large_Group.jpg",
             sermon_link: "https://drive.google.com/drive/folders/1aJXlQDJ9CxGYqr_Q-PBYsN86Ho576IH8?fbclid=IwAR0sS7HvmeMO1f4ebQQmbFuQBhizLWpTCagWLmtZH3nl8ISR0v2_AzW-ysE",
@@ -63,14 +61,7 @@ var events = {
             image: "images/Events/Freshman_SG.jpg",
             time: "Tuesday at 8pm"
         },
-        prayer_meeting: {
-            title: "Prayer Meeting",
-            description: "Come join us and pray together!<br> Led by Nathan Pun",
-            details: "Zoom ID: 943-0702-6475",
-            fb_link: '',
-            image: "images/Events/Prayer_Meeting.jpg",
-            time: "Wednesday at 2pm",
-        },
+        /*
         study_party: {
             title: "Study Party",
             description: "Come joins us for a fun time of studying and fellowship!",
@@ -79,6 +70,7 @@ var events = {
             image: "images/Events/Study_Party.jpg",
             time: "Wednesday at 4pm"
         },
+        */
         womens_small_group: {
             title: "Women's Small Group",
             description: "Focus: Proactively dying to our earthly self<br>Led by Dorothy Tsai & Luann Huang",
@@ -98,12 +90,19 @@ var events = {
         game_night: {
             title: "Game Night",
             description: "Join us in some virtual games :) We play fun interactive games like Among Us!",
-            details: "Zoom ID: 467-781-2711",
+            details: "Join us on our Discord!",
             fb_link: '',
             image: "images/Events/Game_Night.jpg",
             time: "Thursday at 10pm"
+        },
+        prayer_meeting: {
+            title: "Prayer Meeting",
+            description: "Come join us and pray together!<br> Led by Nathan Pun",
+            details: "Zoom ID: 998-1504-0279",
+            fb_link: '',
+            image: "images/Events/Prayer_Meeting.jpg",
+            time: "Friday at 4pm",
         }
-        */
     }
     /** Archived events
         pre_large_group: {

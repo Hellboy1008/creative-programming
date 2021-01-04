@@ -49,8 +49,12 @@ $(document).ready(function() {
                 $('#' + aacf_event + '> .event-details').append(details_text);
             } else if (events[event_type][aacf_event].details != undefined) {
                 zoom_details = events[event_type][aacf_event].details;
-                zoom_div = '<a target="_blank" href="https://ucsd.zoom.us/j/' + zoom_details.substring(9).replaceAll('-', '') +
-                    '">' + zoom_details + '</a>';
+                if (events[event_type][aacf_event].details.indexOf('Zoom ID') != -1) {
+                    zoom_div = '<a target="_blank" href="https://ucsd.zoom.us/j/' + zoom_details.substring(9).replaceAll('-', '') +
+                        '">' + zoom_details + '</a>';
+                } else {
+                    zoom_div = zoom_details;
+                }
                 $('#' + aacf_event + '> .event-details').append(zoom_div);
             }
         }
