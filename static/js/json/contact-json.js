@@ -49,7 +49,7 @@ var contact_text = {
                 position: "Men's & Admin",
                 year: '3rd Year',
                 major: 'Cognitive Science',
-                contact: 'srlee@ucsd.edu',
+                contact: '(862) 881-9028',
                 image: 'images/Leaders/Stephen.jpg'
             },
             Emi: {
