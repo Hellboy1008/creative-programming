@@ -9,7 +9,7 @@ var events_text = {
     events_header: 'Weekly Events',
     page_banner: 'images/Page_Banners/Events_Page.png',
     past_events_header: 'Past Events',
-    upcoming_events_header: 'Upcoming Events (Week 3)'
+    upcoming_events_header: 'Upcoming Events (Week 4)'
 }
 
 var events = {
@@ -44,7 +44,6 @@ var events = {
         }
     },
     upcoming_events: {
-        /*
         large_group: {
             title: "Large Group",
             description: "Gather together with the community for worship and learning!",
@@ -54,7 +53,6 @@ var events = {
             sermon_link: "https://drive.google.com/drive/folders/1aJXlQDJ9CxGYqr_Q-PBYsN86Ho576IH8?fbclid=IwAR0sS7HvmeMO1f4ebQQmbFuQBhizLWpTCagWLmtZH3nl8ISR0v2_AzW-ysE",
             time: "Monday at 8pm"
         },
-        */
         freshman_small_group: {
             title: "Freshman Small Group",
             description: "Focus: Self/Identity<br>Led by Elizabeth Tov & Tin-Trung Pham",
@@ -81,6 +79,14 @@ var events = {
             image: "images/Events/Womens_SG.jpg",
             time: "Wednesday at 8pm"
         },
+        prayer_meeting: {
+            title: "Prayer Meeting",
+            description: "Come join us and pray together!<br> Led by Nathan Pun",
+            details: "Zoom ID: 916-2931-6541",
+            fb_link: '',
+            image: "images/Events/Prayer_Meeting.jpg",
+            time: "Thursday at 11am",
+        },
         mens_small_group: {
             title: "Men's Small Group",
             description: "Focus: Our personal relationship with God<br>Led by Joey Truong & Thomas Tang",
@@ -96,14 +102,6 @@ var events = {
             fb_link: '',
             image: "images/Events/Game_Night.jpg",
             time: "Thursday at 10pm"
-        },
-        prayer_meeting: {
-            title: "Prayer Meeting",
-            description: "Come join us and pray together!<br> Led by Dorothy Tsai",
-            details: "Zoom ID: 992-1576-3846",
-            fb_link: '',
-            image: "images/Events/Prayer_Meeting.jpg",
-            time: "Friday at 3pm",
         }
     }
     /** Archived events
