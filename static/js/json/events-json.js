@@ -9,7 +9,7 @@ var events_text = {
     events_header: 'Weekly Events',
     page_banner: 'images/Page_Banners/Events_Page.png',
     past_events_header: 'Past Events',
-    upcoming_events_header: 'Upcoming Events (Week 4)'
+    upcoming_events_header: 'Upcoming Events (Week 5)'
 }
 
 var events = {
@@ -35,11 +35,11 @@ var events = {
             image: "images/Events/Pumpkin_Party.jpg",
             time: "Halloween Day"
         },
-        escape_room: {
-            title: "Escape Room",
+        escape_room_1: {
+            title: "Virtual Escape Room",
             description: "Worked together to solve a virtual escape room!",
             fb_link: 'https://www.facebook.com/events/3275266462570407/',
-            image: "images/Events/Escape_Room.jpg",
+            image: "images/Events/Escape_Room_1.jpg",
             time: "Welcome Week Event"
         }
     },
@@ -48,11 +48,28 @@ var events = {
             title: "Large Group",
             description: "Gather together with the community for worship and learning!",
             details: "Zoom ID: 978-9517-5741 | Listen to our Sermons here!",
-            fb_link: 'https://www.facebook.com/events/219876319835521',
+            fb_link: 'https://www.facebook.com/events/253747572813636',
             image: "images/Events/Large_Group.jpg",
             sermon_link: "https://drive.google.com/drive/folders/1aJXlQDJ9CxGYqr_Q-PBYsN86Ho576IH8?fbclid=IwAR0sS7HvmeMO1f4ebQQmbFuQBhizLWpTCagWLmtZH3nl8ISR0v2_AzW-ysE",
             time: "Monday at 8pm"
         },
+        joint_sg_1: {
+            title: "Joint Small Group 1",
+            description: "Topic: Stewardship<br>Led by Sonia Kang & Tin-Trung Pham",
+            details: "Zoom ID: 939-4529-1945",
+            fb_link: '',
+            image: "images/Events/Bro_App.jpg",
+            time: "Tuesday at 8pm"
+        },
+        joint_sg_2: {
+            title: "Joint Small Group 2",
+            description: "Topic: Stewardship<br>Led by Aidan Monsale & Thomas Tang",
+            details: "Zoom ID: 294-637-2645",
+            fb_link: '',
+            image: "images/Events/Winter_Retreat.jpg",
+            time: "Thursday at 8pm"
+        },
+        /*
         freshman_small_group: {
             title: "Freshman Small Group",
             description: "Focus: Self/Identity<br>Led by Elizabeth Tov & Tin-Trung Pham",
@@ -61,7 +78,6 @@ var events = {
             image: "images/Events/Freshman_SG.jpg",
             time: "Tuesday at 8pm"
         },
-        /*
         study_party: {
             title: "Study Party",
             description: "Come joins us for a fun time of studying and fellowship!",
@@ -70,7 +86,6 @@ var events = {
             image: "images/Events/Study_Party.jpg",
             time: "Wednesday at 4pm"
         },
-        */
         womens_small_group: {
             title: "Women's Small Group",
             description: "Focus: Proactively dying to our earthly self<br>Led by Dorothy Tsai & Luann Huang",
@@ -78,14 +93,6 @@ var events = {
             fb_link: '',
             image: "images/Events/Womens_SG.jpg",
             time: "Wednesday at 8pm"
-        },
-        prayer_meeting: {
-            title: "Prayer Meeting",
-            description: "Come join us and pray together!<br> Led by Nathan Pun",
-            details: "Zoom ID: 916-2931-6541",
-            fb_link: '',
-            image: "images/Events/Prayer_Meeting.jpg",
-            time: "Thursday at 11am",
         },
         mens_small_group: {
             title: "Men's Small Group",
@@ -95,13 +102,30 @@ var events = {
             image: "images/Events/Mens_SG.jpg",
             time: "Thursday at 8pm"
         },
+        */
         game_night: {
             title: "Game Night",
             description: "Join us in some virtual games :) We play fun interactive games like Among Us!",
-            details: "Join us on our Discord!",
+            details: "Zoom ID: 467-781-2711" /*Join us on our Discord!*/ ,
             fb_link: '',
             image: "images/Events/Game_Night.jpg",
             time: "Thursday at 10pm"
+        },
+        prayer_meeting: {
+            title: "Prayer Meeting",
+            description: "Come join us and pray together!<br> Led by Nathan Pun",
+            details: "Zoom ID: 929-2780-7174",
+            fb_link: '',
+            image: "images/Events/Prayer_Meeting.jpg",
+            time: "Friday at 1pm",
+        },
+        escape_room_2: {
+            title: "Virtual Escape Room",
+            description: "Come join us to fellowship and work together to solve a virtual escape room!",
+            details: "Zoom ID: 619-279-5467",
+            fb_link: 'https://www.facebook.com/events/879856582854412',
+            image: "images/Events/Escape_Room_2.jpg",
+            time: "Saturday at 5pm"
         }
     }
     /** Archived events
