@@ -126,7 +126,7 @@ var events = {
             details: "Zoom ID: 942-3407-7765",
             fb_link: '',
             image: "images/Events/Prayer_Meeting.jpg",
-            time: "Friday at 4pm",
+            time: "Friday at 3pm",
         }
     }
     /** Archived events
