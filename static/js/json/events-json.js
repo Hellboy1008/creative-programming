@@ -9,7 +9,7 @@ var events_text = {
     events_header: 'Weekly Events',
     page_banner: 'images/Page_Banners/Events_Page.png',
     past_events_header: 'Past Events',
-    upcoming_events_header: 'Upcoming Events (Week 6)'
+    upcoming_events_header: 'Upcoming Events (Week 7)'
 }
 
 var events = {
@@ -55,7 +55,7 @@ var events = {
             title: "Large Group",
             description: "Gather together with the community for worship and learning!",
             details: "Zoom ID: 978-9517-5741 | Listen to our Sermons here!",
-            fb_link: 'https://www.facebook.com/events/441811163833783',
+            fb_link: 'https://www.facebook.com/events/1003279653409203',
             image: "images/Events/Large_Group.jpg",
             sermon_link: "https://drive.google.com/drive/folders/1aJXlQDJ9CxGYqr_Q-PBYsN86Ho576IH8?fbclid=IwAR0sS7HvmeMO1f4ebQQmbFuQBhizLWpTCagWLmtZH3nl8ISR0v2_AzW-ysE",
             time: "Monday at 8pm"
@@ -115,18 +115,18 @@ var events = {
         game_night: {
             title: "Game Night",
             description: "Join us in some virtual games :) We play fun interactive games like Among Us!",
-            details: "Join us on our Discord!" /*Join us on our Discord!*/ ,
+            details: "Zoom ID: 967-7844-2675" /*Join us on our Discord!*/ ,
             fb_link: '',
             image: "images/Events/Game_Night.jpg",
             time: "Thursday at 10pm"
         },
         prayer_meeting: {
             title: "Prayer Meeting",
-            description: "Come join us and pray together!<br> Led by Nathan Pun",
-            details: "Zoom ID: 942-3407-7765",
+            description: "Come join us and pray together!<br> Led by Tin-Trung Pham",
+            details: "Zoom ID: 995-1239-5142",
             fb_link: '',
             image: "images/Events/Prayer_Meeting.jpg",
-            time: "Friday at 3pm",
+            time: "Friday at 12:30pm",
         }
     }
     /** Archived events
