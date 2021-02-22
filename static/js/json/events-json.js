@@ -9,7 +9,7 @@ var events_text = {
     events_header: 'Weekly Events',
     page_banner: 'images/Page_Banners/Events_Page.png',
     past_events_header: 'Past Events',
-    upcoming_events_header: 'Upcoming Events (Week 7)'
+    upcoming_events_header: 'Upcoming Events (Week 8)'
 }
 
 var events = {
@@ -55,29 +55,28 @@ var events = {
             title: "Large Group",
             description: "Gather together with the community for worship and learning!",
             details: "Zoom ID: 978-9517-5741 | Listen to our Sermons here!",
-            fb_link: 'https://www.facebook.com/events/1003279653409203',
+            fb_link: 'https://www.facebook.com/events/722919648589605',
             image: "images/Events/Large_Group.jpg",
             sermon_link: "https://drive.google.com/drive/folders/1aJXlQDJ9CxGYqr_Q-PBYsN86Ho576IH8?fbclid=IwAR0sS7HvmeMO1f4ebQQmbFuQBhizLWpTCagWLmtZH3nl8ISR0v2_AzW-ysE",
             time: "Monday at 8pm"
         },
-        /*
         joint_sg_1: {
             title: "Joint Small Group 1",
-            description: "Topic: Stewardship<br>Led by Sonia Kang & Tin-Trung Pham",
-            details: "Zoom ID: 939-4529-1945",
+            description: "Topic: Patience<br>Led by Elizabeth Tov & Jonathan Ye",
+            details: "Zoom ID: 818-1163-7779",
             fb_link: '',
             image: "images/Events/Bro_App.jpg",
             time: "Tuesday at 8pm"
         },
         joint_sg_2: {
             title: "Joint Small Group 2",
-            description: "Topic: Stewardship<br>Led by Aidan Monsale & Thomas Tang",
-            details: "Zoom ID: 294-637-2645",
+            description: "Topic: Patience<br>Led by Dorothy Tsai & Eric Zhang",
+            details: "Zoom ID: 974-4247-1407",
             fb_link: '',
             image: "images/Events/Winter_Retreat.jpg",
             time: "Thursday at 8pm"
         },
-        */
+        /*
         freshman_small_group: {
             title: "Freshman Small Group",
             description: "Focus: Self/Identity<br>Led by Elizabeth Tov & Tin-Trung Pham",
@@ -86,7 +85,6 @@ var events = {
             image: "images/Events/Freshman_SG.jpg",
             time: "Tuesday at 8pm"
         },
-        /*
         study_party: {
             title: "Study Party",
             description: "Come joins us for a fun time of studying and fellowship!",
@@ -95,7 +93,6 @@ var events = {
             image: "images/Events/Study_Party.jpg",
             time: "Wednesday at 4pm"
         },
-        */
         womens_small_group: {
             title: "Women's Small Group",
             description: "Focus: Proactively dying to our earthly self<br>Led by Dorothy Tsai & Luann Huang",
@@ -112,21 +109,22 @@ var events = {
             image: "images/Events/Mens_SG.jpg",
             time: "Thursday at 8pm"
         },
+        */
         game_night: {
             title: "Game Night",
             description: "Join us in some virtual games :) We play fun interactive games like Among Us!",
-            details: "Zoom ID: 967-7844-2675" /*Join us on our Discord!*/ ,
+            details: "Join us on our Discord!" /*Join us on our Discord!*/ ,
             fb_link: '',
             image: "images/Events/Game_Night.jpg",
             time: "Thursday at 10pm"
         },
         prayer_meeting: {
             title: "Prayer Meeting",
-            description: "Come join us and pray together!<br> Led by Tin-Trung Pham",
-            details: "Zoom ID: 995-1239-5142",
+            description: "Come join us and pray together!<br> Led by Andrew Dai",
+            details: "Zoom ID: 725-749-3377",
             fb_link: '',
             image: "images/Events/Prayer_Meeting.jpg",
-            time: "Friday at 12:30pm",
+            time: "Sunday at 8:00pm",
         }
     }
     /** Archived events
