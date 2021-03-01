@@ -55,7 +55,7 @@ var events = {
             title: "Large Group",
             description: "Gather together with the community for worship and learning!",
             details: "Zoom ID: 978-9517-5741 | Listen to our Sermons here!",
-            fb_link: 'https://www.facebook.com/events/722919648589605',
+            fb_link: 'https://www.facebook.com/events/344965750118967',
             image: "images/Events/Large_Group.jpg",
             sermon_link: "https://drive.google.com/drive/folders/1aJXlQDJ9CxGYqr_Q-PBYsN86Ho576IH8?fbclid=IwAR0sS7HvmeMO1f4ebQQmbFuQBhizLWpTCagWLmtZH3nl8ISR0v2_AzW-ysE",
             time: "Monday at 8pm"
