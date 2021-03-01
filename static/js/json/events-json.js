@@ -9,7 +9,7 @@ var events_text = {
     events_header: 'Weekly Events',
     page_banner: 'images/Page_Banners/Events_Page.png',
     past_events_header: 'Past Events',
-    upcoming_events_header: 'Upcoming Events (Week 8)'
+    upcoming_events_header: 'Upcoming Events (Week 9)'
 }
 
 var events = {
@@ -60,23 +60,6 @@ var events = {
             sermon_link: "https://drive.google.com/drive/folders/1aJXlQDJ9CxGYqr_Q-PBYsN86Ho576IH8?fbclid=IwAR0sS7HvmeMO1f4ebQQmbFuQBhizLWpTCagWLmtZH3nl8ISR0v2_AzW-ysE",
             time: "Monday at 8pm"
         },
-        joint_sg_1: {
-            title: "Joint Small Group 1",
-            description: "Topic: Patience<br>Led by Elizabeth Tov & Jonathan Ye",
-            details: "Zoom ID: 818-1163-7779",
-            fb_link: '',
-            image: "images/Events/Bro_App.jpg",
-            time: "Tuesday at 8pm"
-        },
-        joint_sg_2: {
-            title: "Joint Small Group 2",
-            description: "Topic: Patience<br>Led by Dorothy Tsai & Eric Zhang",
-            details: "Zoom ID: 974-4247-1407",
-            fb_link: '',
-            image: "images/Events/Winter_Retreat.jpg",
-            time: "Thursday at 8pm"
-        },
-        /*
         freshman_small_group: {
             title: "Freshman Small Group",
             description: "Focus: Self/Identity<br>Led by Elizabeth Tov & Tin-Trung Pham",
@@ -84,14 +67,6 @@ var events = {
             fb_link: '',
             image: "images/Events/Freshman_SG.jpg",
             time: "Tuesday at 8pm"
-        },
-        study_party: {
-            title: "Study Party",
-            description: "Come joins us for a fun time of studying and fellowship!",
-            details: "Zoom ID: 619-279-5467",
-            fb_link: '',
-            image: "images/Events/Study_Party.jpg",
-            time: "Wednesday at 4pm"
         },
         womens_small_group: {
             title: "Women's Small Group",
@@ -109,22 +84,55 @@ var events = {
             image: "images/Events/Mens_SG.jpg",
             time: "Thursday at 8pm"
         },
+        /*
+        joint_sg_1: {
+            title: "Joint Small Group 1",
+            description: "Topic: Patience<br>Led by Elizabeth Tov & Jonathan Ye",
+            details: "Zoom ID: 818-1163-7779",
+            fb_link: '',
+            image: "images/Events/Bro_App.jpg",
+            time: "Tuesday at 8pm"
+        },
+        joint_sg_2: {
+            title: "Joint Small Group 2",
+            description: "Topic: Patience<br>Led by Dorothy Tsai & Eric Zhang",
+            details: "Zoom ID: 974-4247-1407",
+            fb_link: '',
+            image: "images/Events/Winter_Retreat.jpg",
+            time: "Thursday at 8pm"
+        },
+        study_party: {
+            title: "Study Party",
+            description: "Come joins us for a fun time of studying and fellowship!",
+            details: "Zoom ID: 619-279-5467",
+            fb_link: '',
+            image: "images/Events/Study_Party.jpg",
+            time: "Wednesday at 4pm"
+        },
         */
         game_night: {
             title: "Game Night",
             description: "Join us in some virtual games :) We play fun interactive games like Among Us!",
-            details: "Join us on our Discord!" /*Join us on our Discord!*/ ,
+            details: "Zoom ID: 967-7844-2675" /*Join us on our Discord!*/ ,
             fb_link: '',
             image: "images/Events/Game_Night.jpg",
             time: "Thursday at 10pm"
         },
         prayer_meeting: {
             title: "Prayer Meeting",
-            description: "Come join us and pray together!<br> Led by Andrew Dai",
-            details: "Zoom ID: 725-749-3377",
+            description: "Come join us and pray together!<br> Led by Elisha Tom",
+            details: "Zoom ID: 948-5076-2501",
             fb_link: '',
             image: "images/Events/Prayer_Meeting.jpg",
-            time: "Sunday at 8pm",
+            time: "Saturday at 11am",
+        },
+        sisters_appreciation: {
+            title: "Sister's Appreciation",
+            description: "A time to appreciate the sisters in our fellowship!",
+            details: "Contact us for details!",
+            fb_link: 'https://www.facebook.com/events/401637877595845',
+            image: "images/Events/Sis_App.jpg",
+            time: "Saturday at 7:30pm",
         }
     }
     /** Archived events
