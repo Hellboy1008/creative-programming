@@ -9,11 +9,18 @@ var events_text = {
     events_header: 'Weekly Events',
     page_banner: 'images/Page_Banners/Events_Page.png',
     past_events_header: 'Past Events',
-    upcoming_events_header: 'Upcoming Events (Week 9)'
+    upcoming_events_header: 'Upcoming Events (Week 10)'
 }
 
 var events = {
     past_events: {
+        sisters_appreciation: {
+            title: "Sister's Appreciation",
+            description: "Appreciated the sisters in our fellowship!",
+            fb_link: 'https://www.facebook.com/events/401637877595845',
+            image: "images/Events/Sis_App.jpg",
+            time: "March 6",
+        },
         escape_room_2: {
             title: "Virtual Escape Room 2",
             description: "Solved a complicated escape room about colors!",
@@ -55,7 +62,7 @@ var events = {
             title: "Large Group",
             description: "Gather together with the community for worship and learning!",
             details: "Zoom ID: 978-9517-5741 | Listen to our Sermons here!",
-            fb_link: 'https://www.facebook.com/events/344965750118967',
+            fb_link: 'https://www.facebook.com/events/866911317201906',
             image: "images/Events/Large_Group.jpg",
             sermon_link: "https://drive.google.com/drive/folders/1aJXlQDJ9CxGYqr_Q-PBYsN86Ho576IH8?fbclid=IwAR0sS7HvmeMO1f4ebQQmbFuQBhizLWpTCagWLmtZH3nl8ISR0v2_AzW-ysE",
             time: "Monday at 8pm"
@@ -113,26 +120,18 @@ var events = {
         game_night: {
             title: "Game Night",
             description: "Join us in some virtual games :) We play fun interactive games like Among Us!",
-            details: "Zoom ID: 967-7844-2675" /*Join us on our Discord!*/ ,
+            details: "Join us on our Discord!" /*Join us on our Discord!*/ ,
             fb_link: '',
             image: "images/Events/Game_Night.jpg",
             time: "Thursday at 10pm"
         },
         prayer_meeting: {
             title: "Prayer Meeting",
-            description: "Come join us and pray together!<br> Led by Elisha Tom",
-            details: "Zoom ID: 948-5076-2501",
+            description: "Come join us and pray together!<br> Led by Nathan Pun",
+            details: "Zoom ID: 975-1350-9173",
             fb_link: '',
             image: "images/Events/Prayer_Meeting.jpg",
-            time: "Saturday at 11am",
-        },
-        sisters_appreciation: {
-            title: "Sister's Appreciation",
-            description: "A time to appreciate the sisters in our fellowship!",
-            details: "Contact us for details!",
-            fb_link: 'https://www.facebook.com/events/401637877595845',
-            image: "images/Events/Sis_App.jpg",
-            time: "Saturday at 7:30pm",
+            time: "Saturday at 9am",
         }
     }
     /** Archived events
