@@ -8,85 +8,210 @@
     <meta charset="utf-8">
     <meta name="theme-color" content="#4056A1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Lauwood, Patrick Lam ('17-'18), Raymond Leung ('18-'19), Website Ministry -> Stephen Lee, Kwok Wong, Thomas Tang ('19-'20)">
+    <meta name="author" content="Lauwood, Patrick Lam ('17-'18), Raymond Leung ('18-'19), Website Ministry -> Stephen Lee, Kwok Wong, Thomas Tang ('19-'20), Website Ministry -> Stephen Lee, Kwok Wong ('20-'21)">
+    <link rel="shortcut icon" type="image/x-icon" href="images/icons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icons/AACF_Logo_16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/AACF_Logo_32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/icons/AACF_Logo_96x96.png">
 
-    <link rel="shortcut icon" type="image/x-icon" href="images/Icons/favicon.ico">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/Icons/AACF_Logo_16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/Icons/AACF_Logo_32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="images/Icons/AACF_Logo_96x96.png">
-
-    <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" rel="stylesheet">
     <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="static/css/main.css">
-    <link rel="stylesheet" href="static/css/aos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 
     <script src="static/js/jquery-2.1.1.min.js" type="text/javascript"></script>
     <script src="static/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="static/js/json/index-json.js" type="text/javascript"></script>
-    <script src="static/js/json/social-media-json.js" type="text/javascript"></script>
-    <script src="static/js/index.js" type="text/javascript"></script>
 
 </head>
 
 <body>
+    <!-- Page 1: Welcome -->
+    <section class="welcome-screen">
+        <div class="background-overlay">
+            <p class="page-title">AACF AT UC SAN DIEGO</p>
+            <p class="hello-title">Hello there!</p>
+            <p class="intro-title">We're <b>Asian American Christian Fellowship</b>, a student led<br> fellowship at <b>University Of California San Diego</b>.</p>
+            <p class="learn-more"><a href="#about-us">Learn more about us down below!</a></p>
+        </div>
+    </section>
 
-    <!-- navigation bar for website -->
-    <section id="navbar">
-        <div class="navbar-wrapper" id="navbar-wrapper1">
-            <div class="navbar navbar-inverse navbar-static-top" role="navigation">
-                <div class="navbar-header">
-                    <a class="navbar-title-link" href="index.html">
-                        <h3 class="navbar-title">aacf ucsd</h3>
-                    </a>
-                    <!-- social media -->
-                    <div class="navbar-social-media">
-                        <a id="aacf_email">
-                            <i class="far fa-envelope" aria-hidden="true"></i>
-                        </a>
-                        <a id="aacf_fb" target="_blank">
-                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                        </a>
-                        <a id="aacf_insta" target="_blank">
-                            <i class="fab fa-instagram" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                    <i class="fas fa-bars" aria-hidden="true"></i>
-                </button>
-                </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a style="font-weight: 700;" href="index.html">Home</a></li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="churches.html">Churches</a></li>
-                        <li><a href="photos.html">Photos</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
+    <!-- Page 2: About -->
+    <section class="about-us" id="about-us">
+        <p class="about-title"><b>About</b> - learn more about us!</p>
+        <!-- Who we are -->
+        <div class="about-block">
+            <div class="about-info">
+                <p class="about-desc">Student-led Christian organization</p>
+                <p class="about-header">Who We Are</p>
+                <p class="about-body">Asian American Christian Fellowship (AACF) is a student-led Christian organization that is committed to sharing the love of Jesus Christ to the campus of UCSD. We welcome people of all cultural, racial, and religious backgrounds and beliefs
+                    as we seek to learn more about God and to grow deeper in community with each other.</p>
+            </div>
+            <div class="about-img">
+                <img src="images/about-us.jpg"></img>
+            </div>
+        </div>
+        <!-- Theme -->
+        <div class="about-block">
+            <div class="about-info">
+                <p class="about-desc">Why Love? "We love because he first loved us" 1 John 4:19</p>
+                <p class="about-header">Our Theme</p>
+                <p class="about-body">This year, we're exploring the question "Why Love?", derived from our theme verse in 1 John 4:19. During the year, we will be reflecting on these three mini-themes, one for each quarter: "Why would God love me?", "Why should I love God?",
+                    and "Why should I love others?"
+                </p>
+            </div>
+            <div class="about-img">
+                <img src="images/theme.png"></img>
             </div>
         </div>
     </section>
 
-    <!-- aacf home page banner -->
-    <section class="home-banner">
-        <div class="page-banner" id="page_banner"></div>
-    </section>
-
-    <!-- about us -->
-    <section class="container" id="about-us">
-        <p class="theme-header" id="theme_header"></p>
-        <p class="theme-verse" id="theme_verse"></p>
-        <h1 class="about-header" id="about_header"></h1>
-        <div class="desc-container">
-            <div class="text-container">
-                <p class="aacf-desc" id="aacf_description"></p>
-                <p class="vision-body" id="vision_body"></p>
-                <p class="mission-body" id="mission_body"></p>
+    <!-- Page 3: Events -->
+    <section class="events">
+        <p class="event-title"><b>Events</b> - weekly activities</p>
+        <!-- Large Group -->
+        <div class="event-block">
+            <div class="event-img">
+                <img src="images/large-group.jpg "></img>
             </div>
-            <img class="group-photo" id="group_photo"></img>
+            <div class="event-info">
+                <p class="event-header">Large Group</p>
+                <p class="event-date">Monday at 8pm</p>
+                <p class="event-location"><a href="https://ucsd.zoom.us/j/99705464616">Zoom: 997-0546-4616</a></p>
+                <p class="event-description">A</p>
+            </div>
+        </div>
+        <!-- Prayer Meeting -->
+        <div class="event-block">
+            <div class="event-img">
+                <img src="images/prayer-meeting.jpg"></img>
+            </div>
+            <div class="event-info">
+                <p class="event-header">Prayer Meeting</p>
+                <p class="event-date">April 1, 2021 5pm (date changes weekly)</p>
+                <p class="event-location">Zoom: TBD</p>
+                <p class="event-description">A</p>
+            </div>
+        </div>
+        <!-- Game Night -->
+        <div class="event-block">
+            <div class="event-img">
+                <img src="images/game-night.png"></img>
+            </div>
+            <div class="event-info">
+                <p class="event-header">Game Nights</p>
+                <p class="event-date">Thursday at 10pm</p>
+                <p class="event-location">Zoom: TBD</p>
+                <!--Join us on discord!-->
+                <p class="event-description">A</p>
+            </div>
         </div>
     </section>
 
+    <!-- Page 4: Small Group -->
+    <section class="small-groups">
+        <p class="small-groups-title"><b>Small Groups</b></p>
+        <!-- Freshman Small Group -->
+        <div class="sg-block">
+            <div class="sg-info">
+                <div class="sg-header-container">
+                    <p class="sg-header">Freshman Small Group</p>
+                    <div class="line"></div>
+                </div>
+                <p class="sg-date">Tuesday at 8pm</p>
+                <p class="sg-location">Zoom: TBD</p>
+                <p class="sg-description">A</p>
+            </div>
+            <div class="sg-img-left">
+                <img src="images/sg-leaders/elizabeth.png"></img>
+            </div>
+            <div class="sg-img-right">
+                <img src="images/sg-leaders/trung.png"></img>
+            </div>
+        </div>
+        <!-- Women's Small Group -->
+        <div class="sg-block">
+            <div class="sg-info">
+                <div class="sg-header-container">
+                    <p class="sg-header">Women's Small Group</p>
+                    <div class="line womens-sg-line"></div>
+                </div>
+                <p class="sg-date">Wednesday at 8pm</p>
+                <p class="sg-location">Zoom: TBD</p>
+                <p class="sg-description">A</p>
+            </div>
+            <div class="sg-img-left">
+                <img src="images/sg-leaders/dorothy.png"></img>
+            </div>
+            <div class="sg-img-right">
+                <img src="images/sg-leaders/luann.jpg"></img>
+            </div>
+        </div>
+        <!-- Men's Small Group -->
+        <div class="sg-block">
+            <div class="sg-info">
+                <div class="sg-header-container">
+                    <p class="sg-header">Men's Small Group</p>
+                    <div class="line mens-sg-line"></div>
+                </div>
+                <p class="sg-date">Thursday at 8pm</p>
+                <p class="sg-location">Zoom: TBD</p>
+                <p class="sg-description">A</p>
+            </div>
+            <div class="sg-img-l">
+                <img src="images/sg-leaders/jesse.jpg"></img>
+            </div>
+            <div class="sg-img-m">
+                <img src="images/sg-leaders/joey.png"></img>
+            </div>
+            <div class="sg-img-r">
+                <img src="images/sg-leaders/thomas.png"></img>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 5: Contact -->
+    <section class="contact">
+        <p class="contact-title"><b>Contact & Social Media</b></p>
+        <!-- Facebook & Instagram -->
+        <div class="contact-block">
+            <div class="contact-info-left">
+                <div class="contact-header-container">
+                    <p class="contact-header">Facebook</p>
+                    <div class="line facebook-line"></div>
+                </div>
+                <p class="contact-link">Link</p>
+                <p class="contact-description">For latest updates on what we’re doing and the most up to date zoom links, join our Facebook Group!</p>
+            </div>
+            <div class="contact-info-right">
+                <div class="contact-header-container">
+                    <p class="contact-header">Instagram</p>
+                    <div class="line instagram-line"></div>
+                </div>
+                <p class="contact-link">Link</p>
+                <p class="contact-description">If you wanna see some cool pictures of us before COVID check us out here!</p>
+            </div>
+        </div>
+        <!-- Email & Website -->
+        <div class="contact-block">
+            <div class="contact-info-left">
+                <div class="contact-header-container">
+                    <p class="contact-header">Email</p>
+                    <div class="line email-line"></div>
+                </div>
+                <p class="contact-link">aacf.ucsd@aacf.org</p>
+                <p class="contact-description">Do you have any questions or just wanna chat with us? Send us an email and we'll be happy to talk to you!</p>
+            </div>
+            <div class="contact-info-right">
+                <div class="contact-header-container">
+                    <p class="contact-header">AACF Main Website</p>
+                    <div class="line website-line"></div>
+                </div>
+                <p class="contact-link">Link</p>
+                <p class="contact-description">Check out our parent AACF website for more information about our mission/vision of AACF and why it was created.</p>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
